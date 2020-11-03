@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54833F74-B876-84B3-B4D7-8A6F0BD44AD2" name="Cliente">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-02 02:47:00 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="FA31C39A-D293-B56F-536F-8F41FDDAF5F0">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:39:03 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_cliente" id="A9B802B5-643D-73AF-DFD1-D245943A9516">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:39:11 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_3" id="7D0D55C3-1F3F-BE7A-6F98-B9569CDEB848">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:39:18 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63B6B7D4-EA4E-C3D0-39C2-553A9922E151" name="Cliente PK">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:39:10 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA31C39A-D293-B56F-536F-8F41FDDAF5F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

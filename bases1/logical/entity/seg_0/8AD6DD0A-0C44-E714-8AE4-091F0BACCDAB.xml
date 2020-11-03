@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8AD6DD0A-0C44-E714-8AE4-091F0BACCDAB" name="TDC">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:40:31 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>43BFB3E6-B064-0A82-71C6-7E27DD41B2B1</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo_tdc" id="A094088B-6378-BA9D-F03A-00005E5D702C">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:40:31 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<importedID>6F23BB26-5166-882E-5191-13E38EA6B2AA</importedID>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_tdc" id="AE0CE010-BEE4-F0C3-8AAE-D68BCE84DAD5">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:40:31 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<importedID>56F990C7-34C3-17BB-01DD-B8618FBDF1AB</importedID>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="banco_tdc" id="5D499AC4-DE12-A38F-2698-E525BFFD158D">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:40:31 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<importedID>5B89393F-5445-23E1-D39F-07FFDD8087CB</importedID>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_vencimiento_tdc" id="236844A5-ED4E-79A5-7066-A69C29198DF0">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:40:31 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<importedID>D12C1ED0-EA69-34A3-FD4A-79C6233DE346</importedID>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

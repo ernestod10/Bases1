@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6EE0312-C0A2-9383-1138-6308372FAD8D" name="servicios_paquete">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:47:48 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paquete1" id="643759D5-64E0-2D62-478D-15DD71C5A8C6">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:48:08 UTC</createdTime>
+<generatorID>9319B2D7-4C75-3A3D-42F6-9C621305955F</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>B16BC1F2-CD94-2559-3AE8-8A7D0220583F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_servicio" id="1207A848-7723-FFF6-EA7C-FE43FF76656A">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:49:25 UTC</createdTime>
+<generatorID>760B6B83-FFCB-A54B-8FB7-526D3F386723</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>8EF60A51-812E-A552-5F30-B2FAA32D547C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paquete  " id="3B69E057-EA58-43FB-7128-1B97A6291192">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:58:04 UTC</createdTime>
+<generatorID>9319B2D7-4C75-3A3D-42F6-9C621305955F</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>325491D5-1443-0389-142C-96D0F47E85A3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF03EE40-6938-B5E8-1270-98827AAD2986" name="servicios_paquete PK">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:49:07 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>643759D5-64E0-2D62-478D-15DD71C5A8C6</attributeRef>
+<attributeRef>3B69E057-EA58-43FB-7128-1B97A6291192</attributeRef>
+<attributeRef>1207A848-7723-FFF6-EA7C-FE43FF76656A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

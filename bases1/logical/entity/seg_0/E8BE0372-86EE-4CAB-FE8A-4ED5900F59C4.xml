@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8BE0372-86EE-4CAB-FE8A-4ED5900F59C4" name="Paquete">
+<createdBy>Personal</createdBy>
+<createdTime>2020-10-27 19:31:50 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paquete  " id="325491D5-1443-0389-142C-96D0F47E85A3">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:57:56 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paquete" id="B16BC1F2-CD94-2559-3AE8-8A7D0220583F">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:45:46 UTC</createdTime>
+<generatorID>52E653F5-9EE4-0FD9-4325-CBCF3B3C371D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A4A29FBE-828B-D836-63AB-81D86F8A057C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_paquete" id="052EE0B1-90DF-2613-C093-B81FA20DB30D">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:45:59 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion_paquete" id="5CCABB32-6259-0262-5B81-B0346B7A12E8">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:47:04 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_paquete" id="53AA358B-9060-9964-E750-4CDC4FB4E54E">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:47:06 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15745A4C-8111-CB29-5FEC-E26420E9E15D" name="Paquete PK">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:47:03 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B16BC1F2-CD94-2559-3AE8-8A7D0220583F</attributeRef>
+<attributeRef>B16BC1F2-CD94-2559-3AE8-8A7D0220583F</attributeRef>
+<attributeRef>325491D5-1443-0389-142C-96D0F47E85A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

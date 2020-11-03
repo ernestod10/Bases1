@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C523F5B-E2CB-3C99-6744-296E3DB37447" name="Lugar">
+<createdBy>Personal</createdBy>
+<createdTime>2020-10-27 16:27:41 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_lugar" id="832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5">
+<createdBy>Personal</createdBy>
+<createdTime>2020-10-27 16:27:48 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_lugar" id="615177D4-F128-26CD-9AC1-341A9AF566EF">
+<createdBy>Personal</createdBy>
+<createdTime>2020-10-27 16:28:22 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_lugar1" id="710307E7-1858-59FB-5764-D9F79DF649C6">
+<createdBy>Personal</createdBy>
+<createdTime>2020-10-27 16:30:37 UTC</createdTime>
+<generatorID>AE5724ED-50A0-B498-92D3-E053D7D42DF8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_lugar" id="F09B5AFF-2AFC-2F47-79E5-2CD55CD2FB84">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:38:16 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion_geografica" id="99D0F46E-FE1D-633F-76CD-82B3BE7C752E">
+<createdBy>Personal</createdBy>
+<createdTime>2020-10-27 21:30:16 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_servicio" id="7F787971-A235-5F8E-9C89-08DD9490AAC9">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 20:01:44 UTC</createdTime>
+<generatorID>57CBA8DF-9FFE-5549-56F8-DD266E9E043B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>8EF60A51-812E-A552-5F30-B2FAA32D547C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8941E5DC-E916-23FD-8526-7385FE3699DE" name="Lugar PK">
+<createdBy>Personal</createdBy>
+<createdTime>2020-10-27 16:28:11 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

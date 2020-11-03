@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D7E4960-8F58-3D7F-1BB5-D49F5913F646" name="agencia_rally">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:53:11 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_agencia" id="C587553E-AAB6-15DC-4549-38FA00EF1C86">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:55:22 UTC</createdTime>
+<generatorID>F2241C23-48EB-EEE2-A365-840B2C510415</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A4A29FBE-828B-D836-63AB-81D86F8A057C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rally" id="A7D55ACD-2648-A703-1699-A89725F44F98">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:56:11 UTC</createdTime>
+<generatorID>9EC6B719-C63C-58DF-DB09-6F6D3D9D1775</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A81429E8-65C8-1E99-F08A-9DB1538D6869</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05C92790-54DA-C02C-438A-CBFE2A6D1026" name="agencia_rally PK">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:56:05 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C587553E-AAB6-15DC-4549-38FA00EF1C86</attributeRef>
+<attributeRef>A7D55ACD-2648-A703-1699-A89725F44F98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

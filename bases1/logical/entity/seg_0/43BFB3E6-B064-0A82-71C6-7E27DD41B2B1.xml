@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43BFB3E6-B064-0A82-71C6-7E27DD41B2B1" name="METODO_PAGO">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:40:31 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_metodo_pago" id="798DD2A0-C3B1-C295-6FE1-10C9F8886487">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:40:31 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<importedID>B57B2D9E-699F-DB91-B014-616470F0D670</importedID>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_metodo_pago" id="7913A3C1-7F13-77B4-B0E3-6EA627FAD817">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:40:31 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<importedID>BC1126F1-35A0-46F4-79F9-AEF04322DD69</importedID>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="322DA020-AC61-3B02-7E65-67C42CE64465" name="METODO_PAGO PK">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-03 19:40:31 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>798DD2A0-C3B1-C295-6FE1-10C9F8886487</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
