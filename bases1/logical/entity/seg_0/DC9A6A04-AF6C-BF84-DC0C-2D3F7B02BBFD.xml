@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D11000F0-73AB-0A91-4207-ABE559CE3757" name="Asesor_viaje">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC9A6A04-AF6C-BF84-DC0C-2D3F7B02BBFD" name="Punto_interes">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-02 02:43:23 UTC</createdTime>
+<createdTime>2020-11-22 20:35:38 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_asesor" id="D1D05696-96D1-9B03-C91D-AC773A79FA6E">
+<Attribute name="id_punto" id="439E8390-ABA7-F540-BFDE-7085B4EB7127">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-22 21:04:26 UTC</createdTime>
+<createdTime>2020-11-22 20:35:56 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_asesor" id="DE65B8D1-2CD0-017E-6499-BF4A2607E40E">
+<Attribute name="nombre_punto_interes" id="F01CBC06-2469-7BD5-4808-90EC5CB04B4E">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-22 21:04:37 UTC</createdTime>
+<createdTime>2020-11-22 20:36:03 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -35,30 +35,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_agencia" id="DB9401E7-D052-7DB7-8D5B-3C3B0F1D4650">
+<Attribute name="id_lugar" id="F7C468FA-D6D1-153D-B872-DABAAA5AF42F">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-22 21:04:52 UTC</createdTime>
-<generatorID>60D423FB-4E12-74A1-FBA1-F71EFDCE7394</generatorID>
+<createdTime>2020-11-22 20:37:11 UTC</createdTime>
+<generatorID>818CA9E6-6268-04EF-BA72-0017E1DBA710</generatorID>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<referedAttribute>A4A29FBE-828B-D836-63AB-81D86F8A057C</referedAttribute>
+<referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D8618FB5-67E9-4DCC-BD30-3E88D72F8EF4" name="Asesor_viaje PK">
+<identifier id="FA481697-6D8B-7D53-2362-EB135F6C9358" name="Punto_interes PK">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-22 21:04:36 UTC</createdTime>
+<createdTime>2020-11-22 20:36:03 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D1D05696-96D1-9B03-C91D-AC773A79FA6E</attributeRef>
+<attributeRef>439E8390-ABA7-F540-BFDE-7085B4EB7127</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

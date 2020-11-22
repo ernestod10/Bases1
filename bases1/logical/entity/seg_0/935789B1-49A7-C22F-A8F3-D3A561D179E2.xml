@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82032A4C-AE46-2E98-0969-2074DBDA3740" name="Agencia">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="935789B1-49A7-C22F-A8F3-D3A561D179E2" name="Viaje">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-27 16:54:48 UTC</createdTime>
+<createdTime>2020-11-22 20:16:49 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_agencia" id="A4A29FBE-828B-D836-63AB-81D86F8A057C">
+<Attribute name="id_viaje" id="2A25600E-4CED-3B18-B918-48EFD54FB8F3">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-27 21:02:51 UTC</createdTime>
+<createdTime>2020-11-22 20:16:54 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_agencia" id="52C5F009-823B-886F-EC03-86EB704C56C2">
+<Attribute name="fecha_inicio_viaje" id="5694BCC9-CEA5-A221-C71D-80251E923441">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-27 21:02:59 UTC</createdTime>
+<createdTime>2020-11-22 20:39:13 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -35,9 +35,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_de_operacion" id="83FE2F48-B1BA-E143-14F7-D53C60531E27">
+<Attribute name="fecha_fin_viaje" id="A8EB2BB2-C867-0F6F-5C6B-8712E280EE22">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-27 21:29:03 UTC</createdTime>
+<createdTime>2020-11-22 20:39:23 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -45,9 +45,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="alcance" id="3CFB6369-034B-824E-3118-DDBDB5E3D6A0">
+<Attribute name="precio_viaje" id="891388A9-60B4-E0FB-C300-37933D206DE0">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-27 21:29:26 UTC</createdTime>
+<createdTime>2020-11-22 20:54:17 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -55,41 +55,65 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pagina_web" id="987ADBCF-FF33-84E9-BF2D-3B8C3F734C25">
+<Attribute name="valoracion_viaje" id="A33778A2-5377-E104-4316-4E0B23414D37">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-27 21:31:02 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_agencia1" id="D39F500A-365B-7FD8-917C-B59FCDAE25BC">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-03 19:42:17 UTC</createdTime>
-<generatorID>2CA991F1-7E3E-15B2-7324-32EF4762C234</generatorID>
+<createdTime>2020-11-22 20:39:32 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_viajero" id="34C66BEE-9A43-838C-042B-BF03607826AD">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-22 20:51:26 UTC</createdTime>
+<generatorID>87CEE289-D6BE-1BEE-E599-202B47C79489</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>2C90E65E-98E0-5BEE-A522-943AE88402B7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia" id="67BC8904-7A89-D672-C92E-33EC88DF2FF1">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-22 20:53:21 UTC</createdTime>
+<generatorID>AD79DB89-8424-C31B-9014-1695FB6401F5</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
 <referedAttribute>A4A29FBE-828B-D836-63AB-81D86F8A057C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pago" id="22CD70B2-DB3E-E5A6-CFFA-379C65A3C64D">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-22 21:11:39 UTC</createdTime>
+<generatorID>E47CA5A8-6E13-BCFD-B484-E18F9FDECC98</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>69351542-7634-8BBB-00B4-A8BB97581BEF</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3D3189CA-415B-B4EF-4EB1-F0485C21553B" name="Agencia PK">
+<identifier id="8BB19621-D3A0-B799-7EEE-44B748C978BC" name="Viaje PK">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-27 21:02:57 UTC</createdTime>
+<createdTime>2020-11-22 20:16:59 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A4A29FBE-828B-D836-63AB-81D86F8A057C</attributeRef>
+<attributeRef>2A25600E-4CED-3B18-B918-48EFD54FB8F3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

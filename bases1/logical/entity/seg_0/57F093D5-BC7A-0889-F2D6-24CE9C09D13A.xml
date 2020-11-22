@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57F093D5-BC7A-0889-F2D6-24CE9C09D13A" name="viajero_rally">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-22 20:52:42 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_viajero" id="2E3D32AD-B0D4-9A90-4374-A630D69944B7">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-22 20:52:50 UTC</createdTime>
+<generatorID>4510F132-E0E7-5CD3-BCA1-98E03820B31D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>2C90E65E-98E0-5BEE-A522-943AE88402B7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rally" id="01B36A25-23DF-B2D1-5E8B-72A52A09EA0F">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-22 20:52:54 UTC</createdTime>
+<generatorID>C8A0BF41-1703-FA39-7DAA-3813E7860F85</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A81429E8-65C8-1E99-F08A-9DB1538D6869</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

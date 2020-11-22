@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5190D182-05BD-154E-1049-74D3239027AE" name="usuario">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ABD4158D-41B0-1F19-3258-96741A04B9C1" name="Presupuesto">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-29 18:28:26 UTC</createdTime>
+<createdTime>2020-11-22 21:11:57 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_usuario" id="B36E4435-DDBC-CD18-BA55-54209CA8FEBB">
+<Attribute name="id_presupuesto" id="A75E84B4-BFA4-8AFC-5CC7-36E4D773110E">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-29 18:28:30 UTC</createdTime>
+<createdTime>2020-11-22 21:12:04 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_usuario" id="B1CBF668-44AB-3372-8897-D2DA2A2E00EB">
+<Attribute name="monto_presupuesto" id="3395FCE9-3B97-E4C1-5262-78806496AB59">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-29 18:28:37 UTC</createdTime>
+<createdTime>2020-11-22 21:12:10 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -35,48 +35,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="username" id="7C32CA51-5F01-BE65-23A9-3A0C8F1F4EB0">
+<Attribute name="id_asesor" id="A8F09EE9-0620-B3BE-6128-26A9395F7C5D">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-29 18:28:45 UTC</createdTime>
+<createdTime>2020-11-22 21:12:55 UTC</createdTime>
+<generatorID>3FE1B164-0754-4C0D-C4A9-58B16348EFA3</generatorID>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="correo_usuario" id="45FD5D20-6528-4895-12E5-3639567EFCC3">
-<createdBy>Personal</createdBy>
-<createdTime>2020-10-29 18:28:54 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="contraseña_usuario" id="23CA4F16-DBEA-B1A6-6209-63BDA0020130">
-<createdBy>Personal</createdBy>
-<createdTime>2020-10-29 18:29:07 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
+<referedAttribute>D1D05696-96D1-9B03-C91D-AC773A79FA6E</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2F4769DB-54C0-E9FA-812C-666E3941F663" name="usuario PK">
+<identifier id="5FC12947-1738-4839-BF2A-494F52CD883E" name="Presupuesto PK">
 <createdBy>Personal</createdBy>
-<createdTime>2020-10-29 18:28:36 UTC</createdTime>
+<createdTime>2020-11-22 21:12:09 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B36E4435-DDBC-CD18-BA55-54209CA8FEBB</attributeRef>
+<attributeRef>A75E84B4-BFA4-8AFC-5CC7-36E4D773110E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

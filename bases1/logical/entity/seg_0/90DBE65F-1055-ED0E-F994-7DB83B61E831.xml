@@ -103,6 +103,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_lugar" id="82A44096-79AD-EA94-E281-E622643A6233">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-22 20:45:48 UTC</createdTime>
+<generatorID>57CBA8DF-9FFE-5549-56F8-DD266E9E043B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="59534A21-61F8-D659-FAD4-103BEC5DAD38" name="SERVICIO PK">

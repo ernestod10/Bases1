@@ -8,7 +8,7 @@
 </engineerTo>
 <sourcePk>15745A4C-8111-CB29-5FEC-E26420E9E15D</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>se_ubica</nameOnSource>
+<nameOnSource>posee</nameOnSource>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
