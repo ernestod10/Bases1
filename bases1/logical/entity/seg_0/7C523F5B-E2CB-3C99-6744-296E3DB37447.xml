@@ -48,6 +48,17 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="descripcion" id="D0AB7D9B-3F23-5F1C-E99C-3157ED970C0E">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 18:55:05 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8941E5DC-E916-23FD-8526-7385FE3699DE" name="Lugar PK">

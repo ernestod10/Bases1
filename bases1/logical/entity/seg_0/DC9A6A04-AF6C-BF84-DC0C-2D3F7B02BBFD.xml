@@ -25,7 +25,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_punto_interes" id="F01CBC06-2469-7BD5-4808-90EC5CB04B4E">
+<Attribute name="nombre_atraccion" id="F01CBC06-2469-7BD5-4808-90EC5CB04B4E">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-22 20:36:03 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
@@ -44,6 +44,16 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="C6BFF90C-A61F-5A99-F161-1DFE9707D0B7">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 18:54:55 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
