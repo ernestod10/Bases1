@@ -14,4 +14,30 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_lugar" id="5F79079E-620E-CB83-3B11-95FE56C7944B">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 21:18:20 UTC</createdTime>
+<generatorID>B809638A-8777-879B-81A0-311772D386FA</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tour" id="981DA4A6-C7C2-F2FD-CEA6-E43C2740EE5E">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 21:18:25 UTC</createdTime>
+<generatorID>DBB301C2-5999-766D-3CF5-40B6062C5D2D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>35CFCA72-7C7E-8DCF-5803-AC32F0765CAA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

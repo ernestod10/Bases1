@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41D1B959-1AC1-FB4B-30AD-7167F15EA118" name="reserva">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CB1C18C-2049-AA2C-936E-D81709873161" name="agencia_especializacion">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-23 17:56:22 UTC</createdTime>
+<createdTime>2020-11-23 21:11:34 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -15,37 +15,27 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_cliente" id="211C97F3-DD62-DD5A-E4BD-51ABFB7E8B5F">
+<Attribute name="id_Especializacion" id="DFCC5637-F6B3-D216-BD8A-929E69456FA2">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-23 21:24:19 UTC</createdTime>
-<generatorID>764AE037-F567-46E1-96AA-7D4CAC581D68</generatorID>
+<createdTime>2020-11-23 21:11:47 UTC</createdTime>
+<generatorID>D03769D4-6767-342E-A97A-F90A357CB61B</generatorID>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<referedAttribute>FA31C39A-D293-B56F-536F-8F41FDDAF5F0</referedAttribute>
+<referedAttribute>C2991DF2-5F1B-AD3B-1301-89C34D338574</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_servicio" id="0718A98A-682E-F975-89CD-9CE5D066C092">
+<Attribute name="id_agencia" id="97996833-5F7C-B991-48BA-FE7D3555A304">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-23 21:24:23 UTC</createdTime>
-<generatorID>A2A65123-BE75-FAC1-0FED-E8FA116D725C</generatorID>
+<createdTime>2020-11-23 21:11:50 UTC</createdTime>
+<generatorID>A6AA6526-F219-713A-0B52-8DF327B84092</generatorID>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<referedAttribute>8EF60A51-812E-A552-5F30-B2FAA32D547C</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha_reserva" id="DDFD7BF8-E620-6903-C3AA-8134124CE954">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-23 21:24:34 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
+<referedAttribute>A4A29FBE-828B-D836-63AB-81D86F8A057C</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

@@ -55,18 +55,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_viajero" id="34C66BEE-9A43-838C-042B-BF03607826AD">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:51:26 UTC</createdTime>
-<generatorID>87CEE289-D6BE-1BEE-E599-202B47C79489</generatorID>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<referedAttribute>2C90E65E-98E0-5BEE-A522-943AE88402B7</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_agencia" id="67BC8904-7A89-D672-C92E-33EC88DF2FF1">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-22 20:53:21 UTC</createdTime>
