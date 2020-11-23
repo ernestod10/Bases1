@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57F093D5-BC7A-0889-F2D6-24CE9C09D13A" name="viajero_rally">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8968EEA8-8039-6D27-D9B0-4775CE4F0AF3" name="punto_interes_rally">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:52:42 UTC</createdTime>
+<createdTime>2020-11-22 22:57:30 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -15,22 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_viajero" id="2E3D32AD-B0D4-9A90-4374-A630D69944B7">
+<Attribute name="id_rally" id="4E3289BE-E023-9922-94D3-9238966B54FE">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:52:50 UTC</createdTime>
-<generatorID>4510F132-E0E7-5CD3-BCA1-98E03820B31D</generatorID>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<referedAttribute>2C90E65E-98E0-5BEE-A522-943AE88402B7</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_rally" id="01B36A25-23DF-B2D1-5E8B-72A52A09EA0F">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:52:54 UTC</createdTime>
-<generatorID>C8A0BF41-1703-FA39-7DAA-3813E7860F85</generatorID>
+<createdTime>2020-11-22 22:57:44 UTC</createdTime>
+<generatorID>E8FB3F49-895E-3FCE-6B90-7B1B3D7E6A51</generatorID>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
@@ -39,14 +27,15 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="posicion_rally" id="80D37746-D1D6-4448-41B2-87C21D80817E">
+<Attribute name="id_punto" id="00901C1A-0FEB-E9A9-17B3-3A429D9EB025">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-22 22:55:10 UTC</createdTime>
+<createdTime>2020-11-22 22:57:48 UTC</createdTime>
+<generatorID>EF973705-A147-69C8-1BA1-6184BFCB8E5D</generatorID>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>439E8390-ABA7-F540-BFDE-7085B4EB7127</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

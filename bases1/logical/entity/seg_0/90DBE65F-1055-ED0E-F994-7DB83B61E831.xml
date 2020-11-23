@@ -69,6 +69,28 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="costo_niño" id="27599B10-9243-503C-9C17-03743B0288F8">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 18:47:17 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_niño" id="CF31F9F8-098C-14FC-F2AB-7B59E28A50EE">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 18:47:17 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="estatus_servicio" id="6055728F-90CC-F693-00E5-BF4C3FEF2070">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-02 16:20:33 UTC</createdTime>

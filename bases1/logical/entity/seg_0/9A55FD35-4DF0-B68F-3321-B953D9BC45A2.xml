@@ -37,14 +37,14 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_servicio" id="BB6E1E92-E208-07FA-E7ED-21EF0A07EFA6">
+<Attribute name="precio_niño" id="F78F7582-DAFB-F10D-9F97-BF86C4A03A90">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-02 03:29:52 UTC</createdTime>
+<createdTime>2020-11-23 18:48:49 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
-<importedID>02EF9F43-6016-6A48-7CF2-53D28CC81DEF</importedID>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -72,7 +72,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>167901B3-CE12-CDD0-76C9-F3C1EEAD10C5</attributeRef>
-<attributeRef>BB6E1E92-E208-07FA-E7ED-21EF0A07EFA6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

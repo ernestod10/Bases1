@@ -35,69 +35,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="continente_lugar" id="F09B5AFF-2AFC-2F47-79E5-2CD55CD2FB84">
+<Attribute name="id_lugar1" id="F7F1A348-3D4C-ECB0-2148-A4AA2BB193B2">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-03 19:38:16 UTC</createdTime>
+<createdTime>2020-11-23 18:19:32 UTC</createdTime>
+<generatorID>10C50FB4-4825-D6D4-9E98-89223B61AAA4</generatorID>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="pais_lugar" id="7129DE91-A6A7-4688-7B93-EB084BA276C1">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:46:26 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="estado_lugar" id="51C51AF9-CD4B-A4F2-D112-A0CEEEB8C2A8">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:46:34 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ciudad_lugar" id="9F0E5E56-2D69-B094-728D-779B812F51C3">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:46:40 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="latitud" id="99D0F46E-FE1D-633F-76CD-82B3BE7C752E">
-<createdBy>Personal</createdBy>
-<createdTime>2020-10-27 21:30:16 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="longitud" id="3AC3800A-F298-2F2B-8CD9-C01F5871C8AF">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:46:10 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

@@ -55,6 +55,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="especializacion" id="65EFD997-E425-F251-0FAE-3A7E5798863C">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 18:13:41 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="pagina_web" id="987ADBCF-FF33-84E9-BF2D-3B8C3F734C25">
 <createdBy>Personal</createdBy>
 <createdTime>2020-10-27 21:31:02 UTC</createdTime>
@@ -62,6 +72,7 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

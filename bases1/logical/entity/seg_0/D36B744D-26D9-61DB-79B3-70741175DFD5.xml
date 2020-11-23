@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D36B744D-26D9-61DB-79B3-70741175DFD5" name="pauquete_punto">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D36B744D-26D9-61DB-79B3-70741175DFD5" name="pauquete_atraccion">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-03 19:54:30 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>

@@ -45,6 +45,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_lugar" id="B72C689E-0858-73A9-C689-6B4557816F78">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 18:21:42 UTC</createdTime>
+<generatorID>0602DAF1-6808-656E-DD5A-6C79C7113190</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D583D49A-1ACD-2A52-DCC0-9C1988DAB7B4" name="Viajero PK">
