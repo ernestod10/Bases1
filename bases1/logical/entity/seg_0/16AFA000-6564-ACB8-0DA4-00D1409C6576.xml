@@ -26,7 +26,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero_referencia" id="D9472742-440A-5958-BA36-59382E5B2E44">
+<Attribute name="id_transaccion" id="D9472742-440A-5958-BA36-59382E5B2E44">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-23 18:01:54 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>

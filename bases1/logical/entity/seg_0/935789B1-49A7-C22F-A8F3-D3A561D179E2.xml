@@ -55,17 +55,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="valoracion_viaje" id="A33778A2-5377-E104-4316-4E0B23414D37">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:39:32 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_viajero" id="34C66BEE-9A43-838C-042B-BF03607826AD">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-22 20:51:26 UTC</createdTime>

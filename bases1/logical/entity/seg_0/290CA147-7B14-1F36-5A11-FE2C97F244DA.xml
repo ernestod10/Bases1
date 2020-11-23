@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="290CA147-7B14-1F36-5A11-FE2C97F244DA" name="paquete_presupuesto">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 20:36:34 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_presupuesto" id="66E1ED9C-9799-4EA0-E821-B05C457DB5BD">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 20:37:12 UTC</createdTime>
+<generatorID>B25B044C-030D-8B6B-7D25-21727B0357A8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A75E84B4-BFA4-8AFC-5CC7-36E4D773110E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paquete" id="66220868-1311-6732-84E3-BDA6A33697E0">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 20:37:25 UTC</createdTime>
+<generatorID>520C91B4-26CB-6600-32C6-D6833D5A6AAC</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>B16BC1F2-CD94-2559-3AE8-8A7D0220583F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paquete  " id="04740CB2-D4CC-23AA-8701-29060957F13C">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-23 20:37:25 UTC</createdTime>
+<generatorID>520C91B4-26CB-6600-32C6-D6833D5A6AAC</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>325491D5-1443-0389-142C-96D0F47E85A3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
