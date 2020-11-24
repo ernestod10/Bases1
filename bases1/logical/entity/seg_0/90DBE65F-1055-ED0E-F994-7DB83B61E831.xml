@@ -70,6 +70,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="tipo_servicio" id="99D708DC-B3C2-5BE5-6370-8399259C5F16">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-24 19:51:23 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="estatus_servicio" id="6055728F-90CC-F693-00E5-BF4C3FEF2070">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-02 16:20:33 UTC</createdTime>
@@ -90,18 +100,6 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>986616E8-A106-78D2-8C7F-176A5D712951</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_lugar" id="82A44096-79AD-EA94-E281-E622643A6233">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:45:48 UTC</createdTime>
-<generatorID>57CBA8DF-9FFE-5549-56F8-DD266E9E043B</generatorID>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
