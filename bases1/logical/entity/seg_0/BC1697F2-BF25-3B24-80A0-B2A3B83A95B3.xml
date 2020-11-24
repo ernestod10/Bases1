@@ -65,6 +65,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="tipo_proveedor" id="F6B93462-7FA0-2861-7137-AEF4A9F4E361">
+<createdBy>danie</createdBy>
+<createdTime>2020-11-24 01:18:30 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7667C47A-3C04-19EA-5DB4-CCD7834701C2" name="Proveedores PK">

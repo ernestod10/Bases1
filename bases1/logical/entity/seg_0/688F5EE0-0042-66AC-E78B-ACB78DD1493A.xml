@@ -15,6 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ubicacionGeografica" id="A2BD1566-41C9-B289-82A2-18854ED2C9AE">
+<createdBy>danie</createdBy>
+<createdTime>2020-11-24 00:56:40 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id_lugar" id="C9F0C7E9-2FFE-EF2D-120B-A9596B44F9D7">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-23 18:19:58 UTC</createdTime>
@@ -48,4 +58,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B02B32E5-8B8D-985F-111F-DDFB84C10E91" name="ubicacion_geografica PK">
+<createdBy>danie</createdBy>
+<createdTime>2020-11-24 00:56:53 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2BD1566-41C9-B289-82A2-18854ED2C9AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

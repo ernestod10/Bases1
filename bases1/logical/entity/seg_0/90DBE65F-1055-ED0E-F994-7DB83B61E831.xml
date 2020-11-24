@@ -37,16 +37,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_servicio" id="0C100349-0321-28C3-0EBF-0585099263DE">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-03 19:29:58 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="costo_servicio" id="4731E74C-674D-D756-5F66-CFE8DD840E64">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-02 16:20:33 UTC</createdTime>
@@ -69,17 +59,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="costo_niño" id="27599B10-9243-503C-9C17-03743B0288F8">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-23 18:47:17 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="precio_niño" id="CF31F9F8-098C-14FC-F2AB-7B59E28A50EE">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-23 18:47:17 UTC</createdTime>
@@ -96,17 +75,6 @@
 <createdTime>2020-11-02 16:20:33 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <importedID>2D357C60-4530-17AC-0979-753F8D818EE1</importedID>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tercerizado_servicio" id="D8E63C0E-424C-7AD5-CA0C-8091E098DC5E">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-02 16:20:33 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<importedID>138F548F-B4DE-2AF7-861D-7C8F6AEC17A6</importedID>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>

@@ -26,9 +26,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_transaccion" id="D9472742-440A-5958-BA36-59382E5B2E44">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-23 18:01:54 UTC</createdTime>
+<Attribute name="direccion_billetera" id="AC1CA814-0D3C-C6E1-337B-71E5AC3DEDED">
+<createdBy>danie</createdBy>
+<createdTime>2020-11-24 16:12:52 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>

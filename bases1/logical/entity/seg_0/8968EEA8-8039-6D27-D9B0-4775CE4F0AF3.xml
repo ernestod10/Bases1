@@ -27,7 +27,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_punto" id="00901C1A-0FEB-E9A9-17B3-3A429D9EB025">
+<Attribute name="id_actraccion" id="00901C1A-0FEB-E9A9-17B3-3A429D9EB025">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-22 22:57:48 UTC</createdTime>
 <generatorID>EF973705-A147-69C8-1BA1-6184BFCB8E5D</generatorID>

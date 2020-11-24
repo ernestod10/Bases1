@@ -35,6 +35,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="descripcion_presupuesto" id="8837F500-4934-C47C-A3E4-D56306EB96AB">
+<createdBy>danie</createdBy>
+<createdTime>2020-11-24 16:31:24 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id_asesor" id="A8F09EE9-0620-B3BE-6128-26A9395F7C5D">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-22 21:12:55 UTC</createdTime>
@@ -44,18 +54,6 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>D1D05696-96D1-9B03-C91D-AC773A79FA6E</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_viaje" id="EFBB30EB-B65F-80AE-33B4-1E263D1DD090">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-23 20:30:49 UTC</createdTime>
-<generatorID>3C620D7B-D45E-9C62-C66C-0466170D0A42</generatorID>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<referedAttribute>2A25600E-4CED-3B18-B918-48EFD54FB8F3</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
