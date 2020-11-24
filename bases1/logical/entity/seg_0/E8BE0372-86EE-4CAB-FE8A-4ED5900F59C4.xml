@@ -65,6 +65,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Codigo_venta_paquete" id="BA6AAEA7-4D20-0BFF-A8F1-DB4FA2133873">
+<createdBy>Personal</createdBy>
+<createdTime>2020-11-24 21:54:11 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id_lugar" id="85EB4C94-E241-6D97-40DF-D06CEB06C94B">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-22 20:50:26 UTC</createdTime>
