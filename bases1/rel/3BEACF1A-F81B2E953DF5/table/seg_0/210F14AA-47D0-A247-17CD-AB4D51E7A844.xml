@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="210F14AA-47D0-A247-17CD-AB4D51E7A844" name="Participante">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>57F093D5-BC7A-0889-F2D6-24CE9C09D13A</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rally_id_rally" id="CEFE8A83-747D-9339-E397-51AD9AB80BA3">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>01B36A25-23DF-B2D1-5E8B-72A52A09EA0F</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="144B1FEA-5FD3-D672-4F9A-CAD95428A1F6" referredColumn="2E3FF678-2DA1-B4A2-93A8-C49CACE2ED65"/>
+</associations>
+</Column>
+<Column name="posicion_rally" id="9316A7BB-0C16-5AA6-8D65-5A5B065EC097">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>80D37746-D1D6-4448-41B2-87C21D80817E</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipo" id="7F7DD736-5221-1926-99FC-37AF31266915">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>21936119-CF27-A287-C080-C16886D75492</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reg_viagero_Agencia_id_agencia" id="228F0A0D-4867-5305-7B12-55AEC7B95713">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>387B41A2-A706-3E44-FC14-60C20211DC8B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F334214A-ED3E-0F78-1293-721D7DBB96D8" referredColumn="7D220C5C-2E93-3C45-2FEC-730FC4AA91A3"/>
+</associations>
+</Column>
+<Column name="Reg_viagero_Viajero_id_viajero" id="E7B18A86-CE03-D470-62BE-5B7C457C19F2">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>3403A4B6-D747-28A7-FE01-89BA516EE795</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F334214A-ED3E-0F78-1293-721D7DBB96D8" referredColumn="EB6E8667-2462-84F9-28EB-5BB0F40940DF"/>
+</associations>
+</Column>
+<Column name="Cliente_registro_Num_registro" id="851373C3-242B-E016-AD82-46616FCE707F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>45E4B87A-728B-B97F-C908-55E1D4C2F5B1</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3597E818-8A91-C172-B664-B7EE0A61D2A2" referredColumn="B238FF04-BA08-1E8F-6927-A9F8F667F260"/>
+</associations>
+</Column>
+<Column name="Cliente_registro_id_cliente" id="DF0B0862-A37B-45AD-B1FF-F1BEC44A9355">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>14382BE6-AC64-3A77-3C57-0A3978B6D5A6</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3597E818-8A91-C172-B664-B7EE0A61D2A2" referredColumn="3979E4D2-2288-B39F-CCEA-895C237A673F"/>
+</associations>
+</Column>
+<Column name="Cliente_registro_id_asesor" id="256AABC0-C5C1-732E-BDE0-0238475FD7CE">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>88C33C41-DD11-946E-AF4B-79E312FB30F1</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3597E818-8A91-C172-B664-B7EE0A61D2A2" referredColumn="2593032F-8DEC-8561-5DA8-9AA6A831C8B0"/>
+</associations>
+</Column>
+<Column name="Cliente_registro_id_agencia" id="259CF908-D225-F3CA-46B4-7BF93431664E">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>7FAA6EF8-3E85-8869-D99D-0979A8ABE266</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3597E818-8A91-C172-B664-B7EE0A61D2A2" referredColumn="33EF2DC0-5E8A-E42A-E1D6-D57C1BD50B44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A7A2A9A-7884-43EE-2F36-D180CA2BEF85" name="Participante_Reg_viagero_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>9DD4687C-1794-3B5E-9041-F9C0646EB114</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="228F0A0D-4867-5305-7B12-55AEC7B95713"/>
+<colUsage columnID="E7B18A86-CE03-D470-62BE-5B7C457C19F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C491C6D-8A63-1CDC-41A1-F624E0202DAC" name="Part_Cliente_registro_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>9CA13E24-5BF0-B293-7700-A3C479586EF8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="851373C3-242B-E016-AD82-46616FCE707F"/>
+<colUsage columnID="DF0B0862-A37B-45AD-B1FF-F1BEC44A9355"/>
+<colUsage columnID="256AABC0-C5C1-732E-BDE0-0238475FD7CE"/>
+<colUsage columnID="259CF908-D225-F3CA-46B4-7BF93431664E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C5F5196-C705-9F60-54C6-F93B701E4199" name="Participante_rally_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>C8A0BF41-1703-FA39-7DAA-3813E7860F85</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEFE8A83-747D-9339-E397-51AD9AB80BA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

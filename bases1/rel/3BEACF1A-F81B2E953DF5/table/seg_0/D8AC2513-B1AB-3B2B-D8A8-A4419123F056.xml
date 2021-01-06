@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8AC2513-B1AB-3B2B-D8A8-A4419123F056" name="Itinerario">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>7F28A09F-02AC-60EE-B07D-7EF16501CC6F</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Paquete_id_paquete" id="C18F6874-89E3-B765-485E-DE48595DC302">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>08DADFFB-7DDA-42EB-FD12-C10F3980236A</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D338C182-8EF0-E67A-F25C-143E4A2C0E4F" referredColumn="BA320299-EB2E-6DF7-6723-56DDA270D375"/>
+</associations>
+</Column>
+<Column name="Ciudad_id_Ciudad" id="210DD0E2-E69A-548A-E021-82AE7661968A">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>C27CC9B8-13B1-58CB-A883-2C698DC2600D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F03D63C-E8F5-774A-4EC6-5F113AF23A0C" referredColumn="58458D7F-2195-7E8A-BF94-A74272C5B3B6"/>
+</associations>
+</Column>
+<Column name="Orden" id="A0CEFD93-292B-6602-C95D-88D9EC8F3637">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>13DEA597-9EAB-0616-BADE-5A75F4C693CD</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tiempo_estadia" id="89126CE0-0041-624C-8D87-91D6FAC24EE5">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>4394D184-05A7-51E4-2380-F94DD3EA3D83</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paquete_Agencia_id_agencia" id="7706182F-0FED-FC55-B69B-E06053A3F814">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>69703C08-F9EE-0538-FE70-18775657A5F7</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D338C182-8EF0-E67A-F25C-143E4A2C0E4F" referredColumn="69FC7C58-A9A3-B516-CEEE-84928BFDEEAE"/>
+</associations>
+</Column>
+<Column name="Ciudad_Pais_id_pais" id="E8B98A58-0152-8F69-0C0D-1089111314EC">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>A7850CDB-FF7A-C772-2D3D-7BE5EC82E698</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F03D63C-E8F5-774A-4EC6-5F113AF23A0C" referredColumn="36527615-3D53-B45B-D751-E2733280D566"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3963048-AE29-87A5-BD8C-3E5A60A9AB5E" name="Itinerario_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>C8CB7ED9-CB17-4CE6-C5EA-102908282090</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="210DD0E2-E69A-548A-E021-82AE7661968A"/>
+<colUsage columnID="E8B98A58-0152-8F69-0C0D-1089111314EC"/>
+<colUsage columnID="C18F6874-89E3-B765-485E-DE48595DC302"/>
+<colUsage columnID="7706182F-0FED-FC55-B69B-E06053A3F814"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35DB750A-D429-73FD-C596-EFCAF7FB1F83" name="Itinerario_Paquete_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>6238E181-7ABE-542B-7F5A-7AAA0693F6C7</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C18F6874-89E3-B765-485E-DE48595DC302"/>
+<colUsage columnID="7706182F-0FED-FC55-B69B-E06053A3F814"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E5474DA-6494-9A00-F1F1-18958662125C" name="Itinerario_Ciudad_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>83C61D71-343D-3E40-CFFA-8B29FF8B54C2</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="210DD0E2-E69A-548A-E021-82AE7661968A"/>
+<colUsage columnID="E8B98A58-0152-8F69-0C0D-1089111314EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

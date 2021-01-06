@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC9B956A-7B8F-C669-DDAC-DE89093962C0" name="viajero_viaje">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>F25DADC6-4D8A-137A-2C4A-7E98BAE350AF</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Viajero_id_viajero" id="2FE2EC46-1CDA-9CEA-7910-4EA5D5BB2386">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>98CFD766-E906-9BFC-D5B7-C9B19853B92F</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="107BC464-0840-6D95-3830-3D5752FF9130" referredColumn="4FBB32DB-730F-B1B0-737A-ADED9E76E305"/>
+</associations>
+</Column>
+<Column name="PC_id_PC" id="4159DE09-13CC-0BB5-8877-D2BA51506545">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>04E3BB6D-74E0-C201-3C83-E75C4C5F767D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65F39E58-6995-2E68-5151-A24162FE01D0" referredColumn="14717132-F51E-7081-7A0F-075D4B5EF69A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41494490-EBF7-CDCA-2C59-75C57AA12EE3" name="viajero_viaje_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>E44095ED-5ED5-8828-4CB0-E96764733203</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4159DE09-13CC-0BB5-8877-D2BA51506545"/>
+<colUsage columnID="2FE2EC46-1CDA-9CEA-7910-4EA5D5BB2386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11735E08-0849-4B15-CD9D-663C166BDD26" name="viajero_viaje_Viajero_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>C0B43D60-AC3B-4F33-170B-7D604E1D8BE6</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FE2EC46-1CDA-9CEA-7910-4EA5D5BB2386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA7D8E05-7321-1162-0C34-7D8AB788CE0C" name="viajero_viaje_Pqt_contr_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>433CB556-7455-61C0-2BC7-3A4D123B1484</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4159DE09-13CC-0BB5-8877-D2BA51506545"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9181272C-0EFD-E481-749D-E439D9D4239B" name="Area_interes_esp">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:32:43 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EECB2779-48B5-31D8-B073-CF655C7DF69B">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:32:56 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comentarios" id="547D82CD-E3E1-61D5-EAC2-5B8A10E8BE3B">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:33:08 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_actraccion" id="24D9C33F-D68A-105C-917B-62B4B8F26D1C">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:33:31 UTC</createdTime>
+<generatorID>400C3551-18E1-CA4C-E27E-57B42BF62202</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>439E8390-ABA7-F540-BFDE-7085B4EB7127</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Especializacion" id="5CDEBCA9-0513-3DA9-6961-63C703E60D6A">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:34:10 UTC</createdTime>
+<generatorID>0DE75108-D735-BCD0-1F60-083D9F08F0D4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>C2991DF2-5F1B-AD3B-1301-89C34D338574</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia" id="6F3F7277-47C1-EEDD-B0B6-629C34692553">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:34:18 UTC</createdTime>
+<generatorID>66D35A3B-9B46-4960-18EA-FD2645780BE6</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A4A29FBE-828B-D836-63AB-81D86F8A057C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paquete  " id="E5CA4D1C-B5B1-88AF-7DC2-4F5CBD8DDA6F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:34:27 UTC</createdTime>
+<generatorID>B106BC3F-B138-945A-A520-2D4C40FA71A9</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>325491D5-1443-0389-142C-96D0F47E85A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia1" id="AE738E3E-6404-328B-5B1A-5116BA01FD28">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:34:27 UTC</createdTime>
+<generatorID>B106BC3F-B138-945A-A520-2D4C40FA71A9</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AD2F25C5-7ABA-51E5-98A2-2D62F6DA630E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asesor" id="70BFF628-FE20-AA8B-D48B-82ED3FF4EDF2">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:34:51 UTC</createdTime>
+<generatorID>35B08D90-D64B-28ED-2A07-E12929F00E6E</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D1D05696-96D1-9B03-C91D-AC773A79FA6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C7E6B22-0041-BFE9-30C6-38C2D7874CF0" name="Area_interes_esp PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:32:57 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EECB2779-48B5-31D8-B073-CF655C7DF69B</attributeRef>
+<attributeRef>5CDEBCA9-0513-3DA9-6961-63C703E60D6A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

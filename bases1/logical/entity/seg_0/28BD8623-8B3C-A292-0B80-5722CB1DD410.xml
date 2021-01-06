@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28BD8623-8B3C-A292-0B80-5722CB1DD410" name="Cliente_registro">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:42:32 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha" id="2152F3A3-F486-F6C6-3DE1-401D879CD32B">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:42:41 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_registro" id="2D3FC69E-F4F5-FB28-7210-DBF39DA4925F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:42:48 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="D9B09B5B-80FD-90CE-23B6-E4D83DF26FF2">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:44:06 UTC</createdTime>
+<generatorID>2CA16DA9-9242-6903-5BFB-ABBDF2969A31</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>FA31C39A-D293-B56F-536F-8F41FDDAF5F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asesor" id="3A7FDE37-F0F1-1673-2BC8-326862EF9603">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:44:06 UTC</createdTime>
+<generatorID>2CA16DA9-9242-6903-5BFB-ABBDF2969A31</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>F448995A-B135-6B02-DA07-F9288CF5AC57</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia" id="B83C823C-3DED-6539-8EFB-0C5E3CE921AB">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:44:10 UTC</createdTime>
+<generatorID>60615196-73BF-2B2D-9065-8DA9EA8AAB4D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A4A29FBE-828B-D836-63AB-81D86F8A057C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47941968-35A9-1E55-70C7-A95DEC15B0D4" name="Key_1">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:43:38 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2D3FC69E-F4F5-FB28-7210-DBF39DA4925F,2CA16DA9-9242-6903-5BFB-ABBDF2969A31,60615196-73BF-2B2D-9065-8DA9EA8AAB4D</newElementsIDs>
+<usedAttributes>
+<attributeRef>2D3FC69E-F4F5-FB28-7210-DBF39DA4925F</attributeRef>
+<attributeRef>D9B09B5B-80FD-90CE-23B6-E4D83DF26FF2</attributeRef>
+<attributeRef>3A7FDE37-F0F1-1673-2BC8-326862EF9603</attributeRef>
+<attributeRef>B83C823C-3DED-6539-8EFB-0C5E3CE921AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

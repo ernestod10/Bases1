@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre_viajero" id="3DB29D6E-FD45-295A-B783-7E45E15C6804">
@@ -32,18 +34,35 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pasaporte_viajero" id="F333F09F-19ED-5D31-B299-CADD609F0BD7">
+<Attribute name="Apellido_1" id="9E3C9235-A74E-907B-6D54-EBBFDEC3D097">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:15:53 UTC</createdTime>
+<createdTime>2021-01-03 03:36:39 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_2" id="DEDB86EE-14F0-5100-B5D1-928CB09E0FF6">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 03:36:45 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_nacimiento" id="60404937-82DB-91B0-74B3-75FF7A3AC275">
@@ -53,10 +72,12 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_lugar" id="B72C689E-0858-73A9-C689-6B4557816F78">
+<Attribute name="id_Ciudad" id="B72C689E-0858-73A9-C689-6B4557816F78">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-23 18:21:42 UTC</createdTime>
 <generatorID>0602DAF1-6808-656E-DD5A-6C79C7113190</generatorID>
@@ -65,7 +86,35 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genero" id="12668996-9503-70A7-0DF4-D1717164AE33">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:31:11 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="4B3B12E3-E6D6-60B0-628E-7104D497059E">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:59:14 UTC</createdTime>
+<generatorID>0602DAF1-6808-656E-DD5A-6C79C7113190</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>DA22B7BA-360E-86A2-E617-E342846CC850</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -74,8 +123,9 @@
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-22 20:16:04 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

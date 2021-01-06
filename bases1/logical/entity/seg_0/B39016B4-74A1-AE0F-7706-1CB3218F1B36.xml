@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B39016B4-74A1-AE0F-7706-1CB3218F1B36" name="Forma_Pago">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:25:49 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tipo" id="45D43467-637A-1E8C-0DE4-1D1B18C1829D">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:02 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Paquete_contrato" id="70CC3611-715A-0611-9C98-349678BEE203">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:19 UTC</createdTime>
+<generatorID>4F26B0AB-09AD-BDEF-2A0B-29F592081F0A</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A75E84B4-BFA4-8AFC-5CC7-36E4D773110E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_metodo_pago" id="2799DA32-92F3-2DCF-A66D-91013690A630">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:40 UTC</createdTime>
+<generatorID>60076B0A-3919-6BB9-C1BA-B65B40F177C4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>798DD2A0-C3B1-C295-6FE1-10C9F8886487</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="BF980775-FB44-5F3B-14C5-A881D3DA7781">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:52 UTC</createdTime>
+<generatorID>60076B0A-3919-6BB9-C1BA-B65B40F177C4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>386982DC-20A6-91C4-BDD4-730227263CE7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asesor" id="7836512F-7FEC-0770-75B3-CE7754D20858">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:52 UTC</createdTime>
+<generatorID>60076B0A-3919-6BB9-C1BA-B65B40F177C4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>63392B55-D2D4-48DF-3DF0-6CA1F633D716</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E82651D5-3BF1-BEC1-E139-6E19392471F7" name="Forma_Pago PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:19 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70CC3611-715A-0611-9C98-349678BEE203</attributeRef>
+<attributeRef>2799DA32-92F3-2DCF-A66D-91013690A630</attributeRef>
+<attributeRef>BF980775-FB44-5F3B-14C5-A881D3DA7781</attributeRef>
+<attributeRef>7836512F-7FEC-0770-75B3-CE7754D20858</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

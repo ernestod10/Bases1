@@ -24,7 +24,9 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>A4A29FBE-828B-D836-63AB-81D86F8A057C</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_rally" id="A7D55ACD-2648-A703-1699-A89725F44F98">
@@ -36,7 +38,8 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>A81429E8-65C8-1E99-F08A-9DB1538D6869</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -45,8 +48,9 @@
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-03 19:56:05 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

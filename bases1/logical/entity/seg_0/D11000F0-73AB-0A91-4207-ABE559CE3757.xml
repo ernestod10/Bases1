@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre_asesor" id="DE65B8D1-2CD0-017E-6499-BF4A2607E40E">
@@ -32,7 +34,9 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_agencia" id="DB9401E7-D052-7DB7-8D5B-3C3B0F1D4650">
@@ -44,7 +48,9 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>A4A29FBE-828B-D836-63AB-81D86F8A057C</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -53,8 +59,9 @@
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-22 21:04:36 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

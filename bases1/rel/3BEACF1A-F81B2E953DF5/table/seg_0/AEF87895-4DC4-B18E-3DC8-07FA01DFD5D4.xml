@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEF87895-4DC4-B18E-3DC8-07FA01DFD5D4" name="SERVICIO">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>90DBE65F-1055-ED0E-F994-7DB83B61E831</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="F3E2B02C-3054-4C93-80E8-4712A759EC48">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>8EF60A51-812E-A552-5F30-B2FAA32D547C</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_servicio" id="EAEC8D53-6B2B-A7D9-ADE4-115F450909C7">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>529029E8-0861-E9C3-AC4A-BDC7942C9F3C</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_servicio" id="2996D809-A0B8-BA11-05FF-583891A6384A">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>99D708DC-B3C2-5BE5-6370-8399259C5F16</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedores_Numero_documento_1" id="2257F15A-9E0E-6C2A-B765-EAF6F361C5A1">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>1232AD23-2885-C9B2-9823-11535A789E75</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0510A02E-33C0-BF1F-0A94-6CB4E8803D70" referredColumn="5797C4AF-DCC8-CB10-C0E8-060B3003CF81"/>
+</associations>
+</Column>
+<Column name="descripcion" id="8814A599-10D7-AC59-3715-21CAD7ABC555">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>667D5107-7DB1-227C-9F32-4F5F19440C02</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comida" id="6ED032C4-A818-9E83-F732-74A09564A309">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>35E88E6C-BB71-1920-2CDA-B900E708D604</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paquete_id_paquete" id="5F26A338-4ED3-DB2D-93F8-D217536A6911">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>8955F8E5-FA27-6EA6-ED64-F1A682B3A7A4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82400EDD-6DD8-1BA8-E83C-F80825D0F37A" referredColumn="BA320299-EB2E-6DF7-6723-56DDA270D375"/>
+</associations>
+</Column>
+<Column name="Paquete_Agencia_id_agencia" id="0656127D-E2EE-23B9-6B5B-AC604E7EE3AF">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>8A79CD4A-D814-A9A4-E6EC-B6C61FDB35E8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82400EDD-6DD8-1BA8-E83C-F80825D0F37A" referredColumn="69FC7C58-A9A3-B516-CEEE-84928BFDEEAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8250B40-E898-C2E0-0ADC-8F587C8EEC06" name="SERVICIO_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>59534A21-61F8-D659-FAD4-103BEC5DAD38</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3E2B02C-3054-4C93-80E8-4712A759EC48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DF41225-11C6-4BB3-CEDE-6C91A9160AD3" name="SERVICIO_Proveedores_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>1FF258B0-678C-F123-E063-92304474B3A0</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2257F15A-9E0E-6C2A-B765-EAF6F361C5A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81848881-FB58-FC69-BEC9-3620515C8C19" name="SERVICIO_Paquete_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>EDCD3698-9F0F-AB4F-B0F1-AFC8AA6C3E4A</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F26A338-4ED3-DB2D-93F8-D217536A6911"/>
+<colUsage columnID="0656127D-E2EE-23B9-6B5B-AC604E7EE3AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

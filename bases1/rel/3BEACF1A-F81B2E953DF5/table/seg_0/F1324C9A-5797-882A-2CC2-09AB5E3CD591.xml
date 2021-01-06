@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1324C9A-5797-882A-2CC2-09AB5E3CD591" name="Premio_rally">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>855F9A9F-CE82-714C-387B-8BC5F0B2BFCD</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_premio" id="BD4AC422-BA4C-A1CA-452A-859D1DC821A9">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>137AAC59-33E8-A95F-F76E-AC2A71433BA8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,30,30</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_premio" id="9599CA73-4CCA-C658-4CA1-472A9075E34F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>F1C78C8B-F86D-6E26-9EB5-60430E7275C3</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posicion_participante" id="05D77C78-90F9-88BB-E8A3-098E339685D4">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>ACAF9AC6-EAF3-E5B5-AEF0-E780DCDEE9BC</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,30,30</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rally_id_rally" id="14600F2F-1BA8-8D57-E1D2-05693F41799C">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>89B6C428-66DD-258B-64D1-FB744AD61858</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCB3AA72-A5B1-9664-9010-31E1140332DF" referredColumn="2E3FF678-2DA1-B4A2-93A8-C49CACE2ED65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A212F680-F098-460B-42DE-C1D71C65A291" name="Premio_rally_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>7B2ED6AB-897F-F95B-2BC0-70B2386E3A13</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD4AC422-BA4C-A1CA-452A-859D1DC821A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02612B25-7E57-D71F-98DD-183DD2CF03DE" name="Premio_rally_rally_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>05639D7F-0037-DBAD-F99C-38DD216D6769</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14600F2F-1BA8-8D57-E1D2-05693F41799C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

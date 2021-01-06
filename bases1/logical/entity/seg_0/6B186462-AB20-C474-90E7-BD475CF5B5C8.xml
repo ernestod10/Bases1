@@ -26,17 +26,57 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_pago" id="5C344596-AC55-6B21-412A-476143044097">
+<Attribute name="id_Paquete_contrato" id="FF1C9FC7-89EF-6163-979D-2FEE8D27578C">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-03 19:40:31 UTC</createdTime>
-<generatorID>6F8BE032-42BC-5DAF-2564-3E27C22A1670</generatorID>
+<createdTime>2021-01-03 05:26:33 UTC</createdTime>
+<generatorID>934D2221-3DB3-8B5A-265C-E1A93BB7D0E8</generatorID>
 <ownerDesignName>bases1</ownerDesignName>
-<importedID>5DA9FEC3-7F64-18F7-5734-4D0B90907EB8</importedID>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<referedAttribute>69351542-7634-8BBB-00B4-A8BB97581BEF</referedAttribute>
+<referedAttribute>70CC3611-715A-0611-9C98-349678BEE203</referedAttribute>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_metodo_pago" id="8A14CDC2-803B-487E-A34B-457454A10EAF">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:40 UTC</createdTime>
+<generatorID>934D2221-3DB3-8B5A-265C-E1A93BB7D0E8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>2799DA32-92F3-2DCF-A66D-91013690A630</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="EB7812C9-6C78-C0A9-7217-346634091DEA">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:52 UTC</createdTime>
+<generatorID>934D2221-3DB3-8B5A-265C-E1A93BB7D0E8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>BF980775-FB44-5F3B-14C5-A881D3DA7781</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asesor" id="0ED7C452-ABFD-1A62-1C3C-7DDB4E604392">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:52 UTC</createdTime>
+<generatorID>934D2221-3DB3-8B5A-265C-E1A93BB7D0E8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>7836512F-7FEC-0770-75B3-CE7754D20858</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -50,7 +90,10 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5C344596-AC55-6B21-412A-476143044097</attributeRef>
+<attributeRef>FF1C9FC7-89EF-6163-979D-2FEE8D27578C</attributeRef>
+<attributeRef>8A14CDC2-803B-487E-A34B-457454A10EAF</attributeRef>
+<attributeRef>EB7812C9-6C78-C0A9-7217-346634091DEA</attributeRef>
+<attributeRef>0ED7C452-ABFD-1A62-1C3C-7DDB4E604392</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

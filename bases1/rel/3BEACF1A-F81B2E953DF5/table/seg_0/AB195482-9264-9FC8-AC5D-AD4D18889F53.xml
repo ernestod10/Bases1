@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB195482-9264-9FC8-AC5D-AD4D18889F53" name="Ciudad">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>7C523F5B-E2CB-3C99-6744-296E3DB37447</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Ciudad" id="58458D7F-2195-7E8A-BF94-A74272C5B3B6">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_Ciudad" id="4624D9B5-8153-9F46-A941-08AD71CBD981">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>615177D4-F128-26CD-9AC1-341A9AF566EF</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais_id_pais" id="36527615-3D53-B45B-D751-E2733280D566">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>DA22B7BA-360E-86A2-E617-E342846CC850</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A498C134-E347-A1BE-6721-10AE92827CC5" referredColumn="3F2429F9-6EBD-5F6D-E242-3BBC7F0642F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2011F6C6-5816-CF1B-B4D8-67402F15BD8B" name="Ciudad_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>8941E5DC-E916-23FD-8526-7385FE3699DE</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58458D7F-2195-7E8A-BF94-A74272C5B3B6"/>
+<colUsage columnID="36527615-3D53-B45B-D751-E2733280D566"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="899F8DEB-D8B2-E9BB-3039-4EF66A0701E7" name="Ciudad_Pais_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>3F780339-3120-C403-5FCA-96AC7941B9AE</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36527615-3D53-B45B-D751-E2733280D566"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

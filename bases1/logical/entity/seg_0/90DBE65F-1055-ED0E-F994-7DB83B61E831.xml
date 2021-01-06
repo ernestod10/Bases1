@@ -23,7 +23,9 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre_servicio" id="529029E8-0861-E9C3-AC4A-BDC7942C9F3C">
@@ -34,40 +36,9 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="costo_servicio" id="4731E74C-674D-D756-5F66-CFE8DD840E64">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-02 16:20:33 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<importedID>89916EFC-B05D-F9DF-868C-C650F0063BD6</importedID>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="precio_servicio" id="2AF7CDD6-73EE-B814-335E-193982824523">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-02 16:20:33 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<importedID>62792025-DE62-9A92-D8A4-CEA6B58BFD8A</importedID>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="precio_niño" id="CF31F9F8-098C-14FC-F2AB-7B59E28A50EE">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-23 18:47:17 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tipo_servicio" id="99D708DC-B3C2-5BE5-6370-8399259C5F16">
@@ -77,21 +48,12 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estatus_servicio" id="6055728F-90CC-F693-00E5-BF4C3FEF2070">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-02 16:20:33 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<importedID>2D357C60-4530-17AC-0979-753F8D818EE1</importedID>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_proveedor" id="1232AD23-2885-C9B2-9823-11535A789E75">
+<Attribute name="Numero_documento_1" id="1232AD23-2885-C9B2-9823-11535A789E75">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-03 19:32:03 UTC</createdTime>
 <generatorID>1FF258B0-678C-F123-E063-92304474B3A0</generatorID>
@@ -100,7 +62,62 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>986616E8-A106-78D2-8C7F-176A5D712951</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="667D5107-7DB1-227C-9F32-4F5F19440C02">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:40:19 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comida" id="35E88E6C-BB71-1920-2CDA-B900E708D604">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:40:30 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paquete  " id="8955F8E5-FA27-6EA6-ED64-F1A682B3A7A4">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 02:46:16 UTC</createdTime>
+<generatorID>EDCD3698-9F0F-AB4F-B0F1-AFC8AA6C3E4A</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>325491D5-1443-0389-142C-96D0F47E85A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia" id="8A79CD4A-D814-A9A4-E6EC-B6C61FDB35E8">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 02:46:41 UTC</createdTime>
+<generatorID>EDCD3698-9F0F-AB4F-B0F1-AFC8AA6C3E4A</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>AD2F25C5-7ABA-51E5-98A2-2D62F6DA630E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -109,8 +126,9 @@
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-02 16:20:33 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

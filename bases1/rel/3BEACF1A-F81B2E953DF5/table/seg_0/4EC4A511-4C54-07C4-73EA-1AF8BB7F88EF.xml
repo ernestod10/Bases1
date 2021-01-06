@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EC4A511-4C54-07C4-73EA-1AF8BB7F88EF" name="Valoracion">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>14188FCF-0D2E-C1C4-9187-BDED618A1C6B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A20CB31D-28F2-CF28-D499-55245283B6AA">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>1B195EFB-1215-3F2B-F0F2-12A5DE548DDE</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rally_id_rally" id="A78B487A-CEAE-2CF0-8299-D5DE1B60BA8A">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>3CFB07F4-57BA-43EF-7ECC-584E8EFF7697</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AEBC4A6-3180-1E88-E2EB-15DD7CAB7EC3" referredColumn="2E3FF678-2DA1-B4A2-93A8-C49CACE2ED65"/>
+</associations>
+</Column>
+<Column name="PC_id_Pc" id="A506AD96-C3A4-8592-7C83-01FCAD8E1897">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>956D3806-E1B8-09CB-7281-EBC4D8809678</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DD6DC4D-D8E7-5598-9E2F-14E141417438" referredColumn="14717132-F51E-7081-7A0F-075D4B5EF69A"/>
+</associations>
+</Column>
+<Column name="Ciudad_id_Ciudad" id="F5A3F503-A1A5-0B70-0CCD-3230A997A7FD">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>279F2FDF-03C8-C445-26D2-7A2761DE66E0</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2F364F0-5CBE-096C-9162-23C36D0F59D7" referredColumn="58458D7F-2195-7E8A-BF94-A74272C5B3B6"/>
+</associations>
+</Column>
+<Column name="Ciudad_Pais_id_pais" id="C4F7E7FF-A8A8-8F29-6FA4-A070201A83A5">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>96728EA6-EE7F-07B0-E1C3-8A678E0A92B3</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2F364F0-5CBE-096C-9162-23C36D0F59D7" referredColumn="36527615-3D53-B45B-D751-E2733280D566"/>
+</associations>
+</Column>
+<Column name="atraccion_id_actraccion" id="C5B48203-E0E8-9B8D-48F2-0A7C3A2DB392">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>261A66CD-CF28-4320-9B04-22985D568928</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55CC0AE7-924D-4962-D481-2584F47293EB" referredColumn="50653EC1-FDE8-9846-7082-9CA386A35926"/>
+</associations>
+</Column>
+<Column name="Pais_id_pais" id="605B69C4-F53C-E752-8D40-6408195DDD2D">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>D2A57D31-1367-196A-5326-01094734B251</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3B4C819-CE57-9603-6FC2-DF252CF7523C" referredColumn="3F2429F9-6EBD-5F6D-E242-3BBC7F0642F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25CBC4A1-F8F0-6310-ED19-4DF47B932725" name="Valoracion_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>FABB7C75-5ED0-5B18-FBC9-F26FA9292417</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A20CB31D-28F2-CF28-D499-55245283B6AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BE09EC3-52DE-D32F-04BE-C94F1FD3FC90" name="Valoracion_rally_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>3CE59BA2-7A56-5606-A51B-BFE05B426707</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A78B487A-CEAE-2CF0-8299-D5DE1B60BA8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="324BE1F6-1985-62E7-1D81-88FC0BBF5EC7" name="Valoracion_Paquete_contrato_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>F5DCFA5B-CB7F-1486-F6DA-8022E496F88B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A506AD96-C3A4-8592-7C83-01FCAD8E1897"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1742F569-CDCD-E46C-2B00-C1DF9D58ED42" name="Valoracion_Ciudad_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>52FE3771-D368-077A-9CE0-1EE8B2A80BDC</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5A3F503-A1A5-0B70-0CCD-3230A997A7FD"/>
+<colUsage columnID="C4F7E7FF-A8A8-8F29-6FA4-A070201A83A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="983556D2-45E2-B6BE-3011-6802EF4B600E" name="Valoracion_atraccion_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>DADADC89-EFCE-555E-0049-874CCA4632CD</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5B48203-E0E8-9B8D-48F2-0A7C3A2DB392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50B7951A-59DC-27E6-E716-52D9C37E9A87" name="Valoracion_Pais_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>B74A2641-B14C-0D33-37B9-4A565A9AB1FE</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="605B69C4-F53C-E752-8D40-6408195DDD2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

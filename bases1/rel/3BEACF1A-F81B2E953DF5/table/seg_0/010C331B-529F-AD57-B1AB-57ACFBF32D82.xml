@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="010C331B-529F-AD57-B1AB-57ACFBF32D82" name="Calendario_anual">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>A8054E66-1700-4678-21D8-428ABAD3ABDA</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fechas_salida" id="08FF8C8B-FAF0-3034-C574-6CEC3C3E6996">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>DE123076-C922-BE80-2B5B-1701B6696FB4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="72B8C6FA-3C3B-F563-FB23-E8CE86831F7E">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>339566F3-9FD4-C215-31AF-BA303E6A24F8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paquete_id_paquete" id="672989F9-B7DE-0E60-C882-059434EE2A56">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>5E1353EF-2D82-E3A2-110F-AB7FE9300570</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C1A6D7C-1579-E6D1-BD45-EB8958BF767F" referredColumn="BA320299-EB2E-6DF7-6723-56DDA270D375"/>
+</associations>
+</Column>
+<Column name="Paquete_Agencia_id_agencia" id="CDE33A45-21D1-81F2-FDA1-860C585690C8">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>D6D8E34C-A2E5-7B00-C221-8977D834E022</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C1A6D7C-1579-E6D1-BD45-EB8958BF767F" referredColumn="69FC7C58-A9A3-B516-CEEE-84928BFDEEAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7712B0E0-AF9F-D6D3-6404-ED956306AE6C" name="Calendario_anual_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>25A8EECA-B95E-EEA0-DAD9-3F0B86CC5B4D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08FF8C8B-FAF0-3034-C574-6CEC3C3E6996"/>
+<colUsage columnID="672989F9-B7DE-0E60-C882-059434EE2A56"/>
+<colUsage columnID="CDE33A45-21D1-81F2-FDA1-860C585690C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="179A5A00-1038-197B-F284-90E72C873AB0" name="Calendario_anual_Paquete_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>9FD09744-3418-B742-831D-ED750E5FF0AB</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="672989F9-B7DE-0E60-C882-059434EE2A56"/>
+<colUsage columnID="CDE33A45-21D1-81F2-FDA1-860C585690C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

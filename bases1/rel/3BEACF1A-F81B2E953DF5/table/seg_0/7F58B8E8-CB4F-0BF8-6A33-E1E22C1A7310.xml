@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F58B8E8-CB4F-0BF8-6A33-E1E22C1A7310" name="atraccion_rally">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>8968EEA8-8039-6D27-D9B0-4775CE4F0AF3</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rally_id_rally" id="8E9FBE73-A598-9E34-723C-53C3C3CF9770">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>4E3289BE-E023-9922-94D3-9238966B54FE</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07563AA1-41CB-6411-899F-F58E42925A3A" referredColumn="2E3FF678-2DA1-B4A2-93A8-C49CACE2ED65"/>
+</associations>
+</Column>
+<Column name="atraccion_id_actraccion" id="97A47C91-58AE-DA08-0C91-DF564D2E9991">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>00901C1A-0FEB-E9A9-17B3-3A429D9EB025</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="274C9954-6D4B-B07D-F93F-19C1D91C871E" referredColumn="50653EC1-FDE8-9846-7082-9CA386A35926"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="570B057D-210D-BF4E-F1DD-A31095CAD1E1" name="atraccion_rally_rally_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>E8FB3F49-895E-3FCE-6B90-7B1B3D7E6A51</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E9FBE73-A598-9E34-723C-53C3C3CF9770"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8168EAA-2949-8415-090E-1944F6827E9B" name="atraccion_rally_atraccion_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>EF973705-A147-69C8-1BA1-6184BFCB8E5D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97A47C91-58AE-DA08-0C91-DF564D2E9991"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

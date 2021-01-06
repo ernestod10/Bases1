@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59506E46-E4E1-2D3A-DEC7-55412D6CEB01" name="agencia_rally">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>0D7E4960-8F58-3D7F-1BB5-D49F5913F646</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Agencia_id_agencia" id="341AB212-65C6-0DA4-AA39-BEAC624B072B">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>C587553E-AAB6-15DC-4549-38FA00EF1C86</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CDECCEA-B80D-7CEC-2BDB-FDE2810CE224" referredColumn="AE2CEADF-939D-89BB-A628-C12B323C5C88"/>
+</associations>
+</Column>
+<Column name="rally_id_rally" id="557283DB-62B7-11E2-7693-A7D3C36EC19A">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>A7D55ACD-2648-A703-1699-A89725F44F98</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13C1F2CD-4BD4-7440-FC3E-D67DCBCCB355" referredColumn="2E3FF678-2DA1-B4A2-93A8-C49CACE2ED65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7686309-16C8-24C8-E481-E50C02BA7FB9" name="agencia_rally_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>05C92790-54DA-C02C-438A-CBFE2A6D1026</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="341AB212-65C6-0DA4-AA39-BEAC624B072B"/>
+<colUsage columnID="557283DB-62B7-11E2-7693-A7D3C36EC19A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6EBE9D5-8F75-D5DA-E29C-CAB26ECA4829" name="agencia_rally_Agencia_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>F2241C23-48EB-EEE2-A365-840B2C510415</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="341AB212-65C6-0DA4-AA39-BEAC624B072B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05DF8114-5142-B0B2-D3CB-8D2CE01C828E" name="agencia_rally_rally_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>9EC6B719-C63C-58DF-DB09-6F6D3D9D1775</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="557283DB-62B7-11E2-7693-A7D3C36EC19A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

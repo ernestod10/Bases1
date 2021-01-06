@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DFCA948-9C06-B451-F7EA-728ABFE21BD5" name="Forma_Pago">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>B39016B4-74A1-AE0F-7706-1CB3218F1B36</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tipo" id="D5993BFB-C8A9-2CA3-D5BF-E3F298F8AA41">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>45D43467-637A-1E8C-0DE4-1D1B18C1829D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pc_id_PC" id="D340CF34-4719-CD6E-4691-B047E1CCBF98">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>70CC3611-715A-0611-9C98-349678BEE203</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D017B3A7-C80E-B882-6436-58087FFB62A3" referredColumn="14717132-F51E-7081-7A0F-075D4B5EF69A"/>
+</associations>
+</Column>
+<Column name="MP_id_MP" id="6238A6DD-55A5-3ED9-97D6-9541879C5856">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>2799DA32-92F3-2DCF-A66D-91013690A630</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96ED17F6-D8B2-507D-22CF-1A6DC3B59A37" referredColumn="6D15165D-8B4F-3F01-BB1D-8FEAC9170D12"/>
+</associations>
+</Column>
+<Column name="MP_id_cliente" id="C2C7D64D-2C57-D45C-D480-33E838695F1D">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>BF980775-FB44-5F3B-14C5-A881D3DA7781</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96ED17F6-D8B2-507D-22CF-1A6DC3B59A37" referredColumn="4E935577-E5ED-577E-3521-3D90255338CD"/>
+</associations>
+</Column>
+<Column name="MP_id_asesor" id="681D8C4D-D23C-3518-840F-CDC5993008F3">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>7836512F-7FEC-0770-75B3-CE7754D20858</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96ED17F6-D8B2-507D-22CF-1A6DC3B59A37" referredColumn="B505A89A-3140-2A1A-DC04-D53A0DF0BD1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8E5760B-50FF-8F56-CFD3-609928D041D3" name="Forma_Pago_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>E82651D5-3BF1-BEC1-E139-6E19392471F7</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D340CF34-4719-CD6E-4691-B047E1CCBF98"/>
+<colUsage columnID="6238A6DD-55A5-3ED9-97D6-9541879C5856"/>
+<colUsage columnID="C2C7D64D-2C57-D45C-D480-33E838695F1D"/>
+<colUsage columnID="681D8C4D-D23C-3518-840F-CDC5993008F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84954677-8E4D-5D83-AC2C-5B67AA13BEA4" name="Forma_Pago_Paquete_contrato_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>4F26B0AB-09AD-BDEF-2A0B-29F592081F0A</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D340CF34-4719-CD6E-4691-B047E1CCBF98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEB00D06-EE2A-5E90-0E67-B8AC0F627B04" name="Forma_Pago_METODO_PAGO_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>60076B0A-3919-6BB9-C1BA-B65B40F177C4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6238A6DD-55A5-3ED9-97D6-9541879C5856"/>
+<colUsage columnID="C2C7D64D-2C57-D45C-D480-33E838695F1D"/>
+<colUsage columnID="681D8C4D-D23C-3518-840F-CDC5993008F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

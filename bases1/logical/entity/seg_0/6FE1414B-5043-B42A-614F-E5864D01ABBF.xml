@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FE1414B-5043-B42A-614F-E5864D01ABBF" name="Paquete_atraccion">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:38:27 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Orden_de_visita" id="2D700FD9-97DC-210B-58D4-F945515AA9E1">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:38:42 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_actraccion" id="8194893C-D294-3A92-014A-E73445A1C292">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:39:02 UTC</createdTime>
+<generatorID>813633B5-3AC5-FBE9-0970-7E8027B49AF1</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>439E8390-ABA7-F540-BFDE-7085B4EB7127</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80829229-4F60-BAFD-19EF-7AF2EC7BBE15" name="Paquete_atraccion PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:39:02 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8194893C-D294-3A92-014A-E73445A1C292</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

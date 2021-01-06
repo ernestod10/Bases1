@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C523F5B-E2CB-3C99-6744-296E3DB37447" name="Lugar">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C523F5B-E2CB-3C99-6744-296E3DB37447" name="Ciudad">
 <createdBy>Personal</createdBy>
 <createdTime>2020-10-27 16:27:41 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
@@ -14,60 +14,44 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<discriminatorAttributeID>7B6D0F0C-D4DA-ADE5-7B5C-1409B12B8F79</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_lugar" id="832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5">
+<Attribute name="id_Ciudad" id="832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5">
 <createdBy>Personal</createdBy>
 <createdTime>2020-10-27 16:27:48 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_lugar" id="615177D4-F128-26CD-9AC1-341A9AF566EF">
+<Attribute name="nombre_Ciudad" id="615177D4-F128-26CD-9AC1-341A9AF566EF">
 <createdBy>Personal</createdBy>
 <createdTime>2020-10-27 16:28:22 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_lugar1" id="F7F1A348-3D4C-ECB0-2148-A4AA2BB193B2">
+<Attribute name="id_pais" id="DA22B7BA-360E-86A2-E617-E342846CC850">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-23 18:19:32 UTC</createdTime>
-<generatorID>10C50FB4-4825-D6D4-9E98-89223B61AAA4</generatorID>
+<createdTime>2021-01-03 05:59:14 UTC</createdTime>
+<generatorID>3F780339-3120-C403-5FCA-96AC7941B9AE</generatorID>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="descripcion" id="D0AB7D9B-3F23-5F1C-E99C-3157ED970C0E">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-23 18:55:05 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tipo_lugar" id="360B03CF-1479-BE62-8EBE-78B1780973DE">
-<createdBy>danie</createdBy>
-<createdTime>2020-11-24 00:42:39 UTC</createdTime>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<referedAttribute>A2BD1566-41C9-B289-82A2-18854ED2C9AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -82,6 +66,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</attributeRef>
+<attributeRef>DA22B7BA-360E-86A2-E617-E342846CC850</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

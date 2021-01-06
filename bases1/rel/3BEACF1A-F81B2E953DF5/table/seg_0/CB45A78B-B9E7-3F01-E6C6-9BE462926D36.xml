@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB45A78B-B9E7-3F01-E6C6-9BE462926D36" name="Reg_viagero">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>29466FF2-48C5-EBA3-2F78-7B57E30A7FB9</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fecha" id="C0109B05-3F5C-8D49-FE1A-2C0907E40079">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>3DA1C40B-C1DE-90F5-9B5C-1C2F23BCC955</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numUnico" id="A4C68F07-A7B8-44DD-A0A4-8F1BB1AAAD0A">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>AC4FC721-0DC0-C780-9FCE-D01469036D51</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agencia_id_agencia" id="7D220C5C-2E93-3C45-2FEC-730FC4AA91A3">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>5A66E4A3-EB80-0526-577B-7F92BCD0E6CB</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93815D93-15DA-746B-A3ED-0ED90EA84B9C" referredColumn="AE2CEADF-939D-89BB-A628-C12B323C5C88"/>
+</associations>
+</Column>
+<Column name="Viajero_id_viajero" id="EB6E8667-2462-84F9-28EB-5BB0F40940DF">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>060CCDE6-C494-9116-9414-AF1DAE40CF32</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="736CDB3A-F954-3AB4-F0A4-E9E7EA35D8F2" referredColumn="4FBB32DB-730F-B1B0-737A-ADED9E76E305"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7898E42C-C469-13FE-F598-4FC5C8AEE136" name="Reg_viagero_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>FAB19FED-B231-976C-292C-72C1BB1DDA89</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D220C5C-2E93-3C45-2FEC-730FC4AA91A3"/>
+<colUsage columnID="EB6E8667-2462-84F9-28EB-5BB0F40940DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E09AD8A-831C-4313-C6A6-C3CB973A9254" name="Reg_viagero_numUnico_UN">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>9E19D588-ACAA-A8FE-03B1-66EDBB064597</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4C68F07-A7B8-44DD-A0A4-8F1BB1AAAD0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E4DA936-8DCC-E9AB-E3FF-7FBBAEB64C89" name="Reg_viagero_Agencia_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>62CB1C04-4D61-2841-D2EA-C382EE69C827</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D220C5C-2E93-3C45-2FEC-730FC4AA91A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCA231C4-3175-D52E-4618-A1762A480B45" name="Reg_viagero_Viajero_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>01274F28-82A2-C986-5B9F-DCC15DDAA6D7</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB6E8667-2462-84F9-28EB-5BB0F40940DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

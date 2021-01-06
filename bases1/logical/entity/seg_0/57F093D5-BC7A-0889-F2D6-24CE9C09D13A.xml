@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57F093D5-BC7A-0889-F2D6-24CE9C09D13A" name="viajero_rally">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57F093D5-BC7A-0889-F2D6-24CE9C09D13A" name="Participante">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-22 20:52:42 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
@@ -15,18 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_viajero" id="2E3D32AD-B0D4-9A90-4374-A630D69944B7">
-<createdBy>Personal</createdBy>
-<createdTime>2020-11-22 20:52:50 UTC</createdTime>
-<generatorID>4510F132-E0E7-5CD3-BCA1-98E03820B31D</generatorID>
-<ownerDesignName>bases1</ownerDesignName>
-<engineerTo>
-<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
-</engineerTo>
-<referedAttribute>2C90E65E-98E0-5BEE-A522-943AE88402B7</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_rally" id="01B36A25-23DF-B2D1-5E8B-72A52A09EA0F">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-22 20:52:54 UTC</createdTime>
@@ -36,7 +24,9 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>A81429E8-65C8-1E99-F08A-9DB1538D6869</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="posicion_rally" id="80D37746-D1D6-4448-41B2-87C21D80817E">
@@ -47,7 +37,106 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Equipo" id="21936119-CF27-A287-C080-C16886D75492">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:45:01 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia" id="387B41A2-A706-3E44-FC14-60C20211DC8B">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:45:18 UTC</createdTime>
+<generatorID>9DD4687C-1794-3B5E-9041-F9C0646EB114</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>5A66E4A3-EB80-0526-577B-7F92BCD0E6CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_viajero" id="3403A4B6-D747-28A7-FE01-89BA516EE795">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:45:18 UTC</createdTime>
+<generatorID>9DD4687C-1794-3B5E-9041-F9C0646EB114</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>060CCDE6-C494-9116-9414-AF1DAE40CF32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_registro" id="45E4B87A-728B-B97F-C908-55E1D4C2F5B1">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:45:30 UTC</createdTime>
+<generatorID>9CA13E24-5BF0-B293-7700-A3C479586EF8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>2D3FC69E-F4F5-FB28-7210-DBF39DA4925F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="14382BE6-AC64-3A77-3C57-0A3978B6D5A6">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:45:30 UTC</createdTime>
+<generatorID>9CA13E24-5BF0-B293-7700-A3C479586EF8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>D9B09B5B-80FD-90CE-23B6-E4D83DF26FF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asesor" id="88C33C41-DD11-946E-AF4B-79E312FB30F1">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:45:30 UTC</createdTime>
+<generatorID>9CA13E24-5BF0-B293-7700-A3C479586EF8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>3A7FDE37-F0F1-1673-2BC8-326862EF9603</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia1" id="7FAA6EF8-3E85-8869-D99D-0979A8ABE266">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:45:30 UTC</createdTime>
+<generatorID>9CA13E24-5BF0-B293-7700-A3C479586EF8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>B83C823C-3DED-6539-8EFB-0C5E3CE921AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

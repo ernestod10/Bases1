@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F9427F2E-CDD9-D24E-7BFB-7C3EC54C7AE3" containerWithKeyObject="27433AAB-3C53-BD43-6EBA-11CF2AFCD184" localFKIndex="132ACB75-381D-48DA-5F36-D67E7D3F2401" name="RECIBO_Forma_Pago_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>934D2221-3DB3-8B5A-265C-E1A93BB7D0E8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<referredTableLongName>Forma_Pago</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0DFCA948-9C06-B451-F7EA-728ABFE21BD5</referredTableID>
+<keyObject>C8E5760B-50FF-8F56-CFD3-609928D041D3</keyObject>
+<referredKeyID>C8E5760B-50FF-8F56-CFD3-609928D041D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Paquete_contrato_id_Paquete_contrato,METODO_PAGO_id_metodo_pago,METODO_PAGO_id_cliente,METODO_PAGO_id_asesor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

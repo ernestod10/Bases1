@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3597E818-8A91-C172-B664-B7EE0A61D2A2" containerWithKeyObject="210F14AA-47D0-A247-17CD-AB4D51E7A844" localFKIndex="8C491C6D-8A63-1CDC-41A1-F624E0202DAC" name="Part_Cliente_registro_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>9CA13E24-5BF0-B293-7700-A3C479586EF8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<referredTableLongName>CL_registro</referredTableLongName>
+<arc>256421BF-96A1-2EAD-EE78-1C2EDA3C0140</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A66AA12-F6E0-5157-C695-22DA63A003B6</referredTableID>
+<keyObject>21F3D80B-8819-A6B6-AF0F-03A59953BC42</keyObject>
+<referredKeyID>21F3D80B-8819-A6B6-AF0F-03A59953BC42</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Num_registro,Cliente_id_cliente,Cliente_Asesor_viaje_id_asesor,Agencia_id_agencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

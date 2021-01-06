@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB6B15D0-7414-9EA2-E054-53B8303E7CFB" name="reserva">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>41D1B959-1AC1-FB4B-30AD-7167F15EA118</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_id_cliente" id="9B9ABB34-B201-7278-A606-0DB612087AF4">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>211C97F3-DD62-DD5A-E4BD-51ABFB7E8B5F</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6C1A6BD-25C7-5DC4-ED28-76F7B41B17F3" referredColumn="F60D665F-F499-7396-6512-8941E87567EA"/>
+</associations>
+</Column>
+<Column name="SERVICIO_id_servicio" id="A6CD71CE-604D-4FF0-8EC8-77B9A01BB917">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>0718A98A-682E-F975-89CD-9CE5D066C092</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1A096A0-346E-58E0-0629-8480C178FDFC" referredColumn="F3E2B02C-3054-4C93-80E8-4712A759EC48"/>
+</associations>
+</Column>
+<Column name="fecha_reserva" id="3EF7BF2C-2A96-BA30-7578-6390B48DA96A">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>DDFD7BF8-E620-6903-C3AA-8134124CE954</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_Asesor_viaje_id_asesor" id="5C329705-F353-6815-6C53-0339458C867C">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>392F687C-D1F6-8543-E7E7-E524297DDAD2</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6C1A6BD-25C7-5DC4-ED28-76F7B41B17F3" referredColumn="7DE98813-BDE7-05CF-0199-26B4DA2B9B40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="102CDB86-A163-6433-C614-DFFF7A966444" name="reserva_Cliente_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>764AE037-F567-46E1-96AA-7D4CAC581D68</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B9ABB34-B201-7278-A606-0DB612087AF4"/>
+<colUsage columnID="5C329705-F353-6815-6C53-0339458C867C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBBDA633-52F0-67FA-BCEA-245C20585D0E" name="reserva_SERVICIO_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>A2A65123-BE75-FAC1-0FED-E8FA116D725C</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6CD71CE-604D-4FF0-8EC8-77B9A01BB917"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

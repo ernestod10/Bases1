@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14188FCF-0D2E-C1C4-9187-BDED618A1C6B" name="Valoracion">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:35:45 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1B195EFB-1215-3F2B-F0F2-12A5DE548DDE">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:36:34 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rally" id="3CFB07F4-57BA-43EF-7ECC-584E8EFF7697">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 06:01:00 UTC</createdTime>
+<generatorID>3CE59BA2-7A56-5606-A51B-BFE05B426707</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A81429E8-65C8-1E99-F08A-9DB1538D6869</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Paquete_contrato" id="956D3806-E1B8-09CB-7281-EBC4D8809678">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 06:01:19 UTC</createdTime>
+<generatorID>F5DCFA5B-CB7F-1486-F6DA-8022E496F88B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A75E84B4-BFA4-8AFC-5CC7-36E4D773110E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Ciudad" id="279F2FDF-03C8-C445-26D2-7A2761DE66E0">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 06:02:44 UTC</createdTime>
+<generatorID>52FE3771-D368-077A-9CE0-1EE8B2A80BDC</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="96728EA6-EE7F-07B0-E1C3-8A678E0A92B3">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 06:02:44 UTC</createdTime>
+<generatorID>52FE3771-D368-077A-9CE0-1EE8B2A80BDC</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>DA22B7BA-360E-86A2-E617-E342846CC850</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_actraccion" id="261A66CD-CF28-4320-9B04-22985D568928">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 06:02:48 UTC</createdTime>
+<generatorID>DADADC89-EFCE-555E-0049-874CCA4632CD</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>439E8390-ABA7-F540-BFDE-7085B4EB7127</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais1" id="D2A57D31-1367-196A-5326-01094734B251">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 06:02:52 UTC</createdTime>
+<generatorID>B74A2641-B14C-0D33-37B9-4A565A9AB1FE</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A2BD1566-41C9-B289-82A2-18854ED2C9AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FABB7C75-5ED0-5B18-FBC9-F26FA9292417" name="Valoracion PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:36:44 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B195EFB-1215-3F2B-F0F2-12A5DE548DDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

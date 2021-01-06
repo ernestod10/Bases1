@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre_cliente" id="A9B802B5-643D-73AF-DFD1-D245943A9516">
@@ -32,27 +34,60 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="num_identificacion" id="7D0D55C3-1F3F-BE7A-6F98-B9569CDEB848">
+<Attribute name="Tipo" id="EB1F3F12-DC5A-1BDF-2278-14E1028FAC42">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-03 19:39:18 UTC</createdTime>
+<createdTime>2021-01-03 04:32:51 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_identificacion" id="9226E0AE-B7B5-7ECE-26C0-E25697F2D589">
-<createdBy>danie</createdBy>
-<createdTime>2020-11-24 15:02:48 UTC</createdTime>
+<Attribute name="apellido_1" id="4C4947A4-5585-2E58-3166-9883C5234F60">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:32:41 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_2" id="AC61F268-D3F1-6898-D02B-42E5C3D16D67">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:32:45 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asesor" id="F448995A-B135-6B02-DA07-F9288CF5AC57">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:42:06 UTC</createdTime>
+<generatorID>255A6CCA-C629-1C07-E484-18A3B2D5EC37</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>D1D05696-96D1-9B03-C91D-AC773A79FA6E</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -67,6 +102,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FA31C39A-D293-B56F-536F-8F41FDDAF5F0</attributeRef>
+<attributeRef>F448995A-B135-6B02-DA07-F9288CF5AC57</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -24,7 +24,9 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>FA31C39A-D293-B56F-536F-8F41FDDAF5F0</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_servicio" id="0718A98A-682E-F975-89CD-9CE5D066C092">
@@ -36,7 +38,8 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>8EF60A51-812E-A552-5F30-B2FAA32D547C</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_reserva" id="DDFD7BF8-E620-6903-C3AA-8134124CE954">
@@ -47,6 +50,19 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asesor" id="392F687C-D1F6-8543-E7E7-E524297DDAD2">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:42:06 UTC</createdTime>
+<generatorID>764AE037-F567-46E1-96AA-7D4CAC581D68</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>F448995A-B135-6B02-DA07-F9288CF5AC57</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

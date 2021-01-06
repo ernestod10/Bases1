@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84B4CC81-5A65-2703-B2CF-3BE31ECA9DCF" name="Paquete_atraccion">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>6FE1414B-5043-B42A-614F-E5864D01ABBF</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Orden_de_visita" id="BE1DAB67-D3BD-F763-010E-23D764AFAA96">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>2D700FD9-97DC-210B-58D4-F945515AA9E1</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="atraccion_id_actraccion" id="4FE3151A-A608-4160-AD7D-FDA71D2FACF2">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>8194893C-D294-3A92-014A-E73445A1C292</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D3CBF94-0E94-B166-AB4C-A6ACAC530064" referredColumn="50653EC1-FDE8-9846-7082-9CA386A35926"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81BC6C56-7116-F839-870E-0D2F92C1A81B" name="Paquete_atraccion_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>80829229-4F60-BAFD-19EF-7AF2EC7BBE15</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FE3151A-A608-4160-AD7D-FDA71D2FACF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28F7B87E-46A8-1CAD-4951-F456DCA72F32" name="Paquete_atraccion_atraccion_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>813633B5-3AC5-FBE9-0970-7E8027B49AF1</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FE3151A-A608-4160-AD7D-FDA71D2FACF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

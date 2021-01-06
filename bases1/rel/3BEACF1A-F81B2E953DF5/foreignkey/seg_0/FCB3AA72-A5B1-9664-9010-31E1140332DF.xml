@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FCB3AA72-A5B1-9664-9010-31E1140332DF" containerWithKeyObject="F1324C9A-5797-882A-2CC2-09AB5E3CD591" localFKIndex="02612B25-7E57-D71F-98DD-183DD2CF03DE" name="Premio_rally_rally_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>05639D7F-0037-DBAD-F99C-38DD216D6769</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<referredTableLongName>rally</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F43A9AAF-517A-1B47-1B4D-130264303F99</referredTableID>
+<keyObject>5C755E2D-2F53-D368-81F5-9B0A5004DC9C</keyObject>
+<referredKeyID>5C755E2D-2F53-D368-81F5-9B0A5004DC9C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_rally</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

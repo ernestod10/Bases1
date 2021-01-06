@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8054E66-1700-4678-21D8-428ABAD3ABDA" name="Calendario_anual">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:42:35 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fechas_salida" id="DE123076-C922-BE80-2B5B-1701B6696FB4">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:42:45 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="339566F3-9FD4-C215-31AF-BA303E6A24F8">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:42:59 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paquete  " id="5E1353EF-2D82-E3A2-110F-AB7FE9300570">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:43:33 UTC</createdTime>
+<generatorID>9FD09744-3418-B742-831D-ED750E5FF0AB</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>325491D5-1443-0389-142C-96D0F47E85A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia" id="D6D8E34C-A2E5-7B00-C221-8977D834E022">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:43:33 UTC</createdTime>
+<generatorID>9FD09744-3418-B742-831D-ED750E5FF0AB</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>AD2F25C5-7ABA-51E5-98A2-2D62F6DA630E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25A8EECA-B95E-EEA0-DAD9-3F0B86CC5B4D" name="Calendario_anual PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:42:52 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE123076-C922-BE80-2B5B-1701B6696FB4</attributeRef>
+<attributeRef>5E1353EF-2D82-E3A2-110F-AB7FE9300570</attributeRef>
+<attributeRef>D6D8E34C-A2E5-7B00-C221-8977D834E022</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

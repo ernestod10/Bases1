@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7B8A48F-0AFA-8AAF-38EA-0CED54CCF601" name="Paquete">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>E8BE0372-86EE-4CAB-FE8A-4ED5900F59C4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paquete" id="BA320299-EB2E-6DF7-6723-56DDA270D375">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>325491D5-1443-0389-142C-96D0F47E85A3</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_paquete" id="830CFA95-3306-7D45-72D4-D9D69FB28AE4">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>052EE0B1-90DF-2613-C093-B81FA20DB30D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion_paquete_dias" id="209EA529-999A-9B78-EBEB-4F5F07E58584">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>5CCABB32-6259-0262-5B81-B0346B7A12E8</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad_personas" id="4758D0F0-06CE-FBEB-0435-B4F7220BF3F3">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>962C36B5-F15F-ECB3-80C2-AC493A3B9F65</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="25BE7A04-E9A8-E959-B3C3-7B8C701AB616">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>858BD38C-1CE8-5988-7E32-7729B601BF9B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad_id_Ciudad" id="37A9DC57-DDDC-0809-66E5-117C5A951041">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>85EB4C94-E241-6D97-40DF-D06CEB06C94B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3D1E614-A316-4EFC-B7C9-2A90141F9438" referredColumn="58458D7F-2195-7E8A-BF94-A74272C5B3B6"/>
+</associations>
+</Column>
+<Column name="Agencia_id_agencia" id="69FC7C58-A9A3-B516-CEEE-84928BFDEEAE">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>AD2F25C5-7ABA-51E5-98A2-2D62F6DA630E</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56388BDF-D296-02DB-EAD7-BFAB12CC4459" referredColumn="AE2CEADF-939D-89BB-A628-C12B323C5C88"/>
+</associations>
+</Column>
+<Column name="Ciudad_Pais_id_pais" id="1ECA4F08-ECC5-7953-7921-077E72AB4EC3">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>90C009BD-F6E0-CAB3-7547-08F13176657B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3D1E614-A316-4EFC-B7C9-2A90141F9438" referredColumn="36527615-3D53-B45B-D751-E2733280D566"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80772593-F924-08EA-AE1E-C239BA7EA5F0" name="Paquete_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>15745A4C-8111-CB29-5FEC-E26420E9E15D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA320299-EB2E-6DF7-6723-56DDA270D375"/>
+<colUsage columnID="69FC7C58-A9A3-B516-CEEE-84928BFDEEAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55618FEE-F7E6-EB4E-0B63-A17EBF979B04" name="Paquete_Agencia_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>D91A2507-C573-DFE2-53DC-D7726B9BFAC6</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69FC7C58-A9A3-B516-CEEE-84928BFDEEAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D94A824-FD1E-F859-7647-81B378BFCD10" name="Paquete_Ciudad_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>C2B3D528-791D-6B19-2667-E77F036F9F31</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A9DC57-DDDC-0809-66E5-117C5A951041"/>
+<colUsage columnID="1ECA4F08-ECC5-7953-7921-077E72AB4EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

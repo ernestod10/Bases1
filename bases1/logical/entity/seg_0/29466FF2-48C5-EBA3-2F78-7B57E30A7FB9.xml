@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29466FF2-48C5-EBA3-2F78-7B57E30A7FB9" name="Reg_viagero">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:34:08 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha" id="3DA1C40B-C1DE-90F5-9B5C-1C2F23BCC955">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:34:14 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numUnico" id="AC4FC721-0DC0-C780-9FCE-D01469036D51">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:34:25 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia" id="5A66E4A3-EB80-0526-577B-7F92BCD0E6CB">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:34:47 UTC</createdTime>
+<generatorID>62CB1C04-4D61-2841-D2EA-C382EE69C827</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>A4A29FBE-828B-D836-63AB-81D86F8A057C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_viajero" id="060CCDE6-C494-9116-9414-AF1DAE40CF32">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:34:50 UTC</createdTime>
+<generatorID>01274F28-82A2-C986-5B9F-DCC15DDAA6D7</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>2C90E65E-98E0-5BEE-A522-943AE88402B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAB19FED-B231-976C-292C-72C1BB1DDA89" name="Reg_viagero PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 04:34:47 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A66E4A3-EB80-0526-577B-7F92BCD0E6CB</attributeRef>
+<attributeRef>060CCDE6-C494-9116-9414-AF1DAE40CF32</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="9E19D588-ACAA-A8FE-03B1-66EDBB064597" name="Key_2">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:42:01 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<newElementsIDs>AC4FC721-0DC0-C780-9FCE-D01469036D51</newElementsIDs>
+<usedAttributes>
+<attributeRef>AC4FC721-0DC0-C780-9FCE-D01469036D51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

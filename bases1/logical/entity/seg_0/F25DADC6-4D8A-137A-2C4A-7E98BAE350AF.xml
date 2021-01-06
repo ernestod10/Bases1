@@ -24,20 +24,36 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>2C90E65E-98E0-5BEE-A522-943AE88402B7</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_viaje" id="E0EA7936-03E7-DD74-D4B9-8CE606FE24AB">
+<Attribute name="id_Paquete_contrato" id="04E3BB6D-74E0-C201-3C83-E75C4C5F767D">
 <createdBy>Personal</createdBy>
-<createdTime>2020-11-23 20:44:13 UTC</createdTime>
-<generatorID>B7CBEB95-0739-DCCC-835E-377ED19C0BDC</generatorID>
+<createdTime>2021-01-03 03:34:59 UTC</createdTime>
+<generatorID>433CB556-7455-61C0-2BC7-3A4D123B1484</generatorID>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<referedAttribute>2A25600E-4CED-3B18-B918-48EFD54FB8F3</referedAttribute>
+<referedAttribute>A75E84B4-BFA4-8AFC-5CC7-36E4D773110E</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E44095ED-5ED5-8828-4CB0-E96764733203" name="viajero_viaje PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 03:35:02 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04E3BB6D-74E0-C201-3C83-E75C4C5F767D</attributeRef>
+<attributeRef>98CFD766-E906-9BFC-D5B7-C9B19853B92F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

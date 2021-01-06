@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BB0BF08-18AF-35FA-92AB-C6F10E273820" name="Historico_precio_paquete">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:37:40 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha_inicio" id="C33C3842-29CF-89CF-11D1-CC6941243712">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:37:46 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin" id="354C4F03-2732-9C5A-6A8F-0E0F43C8DD5C">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:38:07 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Costo_base" id="D76963DC-DEC1-B846-6004-8B45AB3BCEAC">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:38:16 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paquete  " id="B8534435-3BA6-DFAD-75D5-B2250AB1E1D9">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:39:36 UTC</createdTime>
+<generatorID>3410DBEF-BDAE-5450-DA2F-0435AFAD23F4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>325491D5-1443-0389-142C-96D0F47E85A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia" id="41F8DC6A-920E-8EB4-BC1D-F115D613A6C1">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:39:36 UTC</createdTime>
+<generatorID>3410DBEF-BDAE-5450-DA2F-0435AFAD23F4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>AD2F25C5-7ABA-51E5-98A2-2D62F6DA630E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9CD14A3-90A3-0E41-712A-80C77230045C" name="Historico_precio PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:37:51 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C33C3842-29CF-89CF-11D1-CC6941243712</attributeRef>
+<attributeRef>B8534435-3BA6-DFAD-75D5-B2250AB1E1D9</attributeRef>
+<attributeRef>41F8DC6A-920E-8EB4-BC1D-F115D613A6C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -23,7 +23,9 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descripcion_metodo_pago" id="7913A3C1-7F13-77B4-B0E3-6EA627FAD817">
@@ -34,19 +36,89 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_metodo_pago1" id="9ABA9070-D6C9-A9FB-2A1E-EEBC152C324C">
-<createdBy>danie</createdBy>
-<createdTime>2020-11-24 16:09:55 UTC</createdTime>
-<generatorID>1030ECE3-4C0E-B868-9A45-6F09ACA76728</generatorID>
+<Attribute name="Tipo" id="4BE0BF05-5CF6-A6FB-9B7A-6FC67B47284A">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:23:20 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<referedAttribute>798DD2A0-C3B1-C295-6FE1-10C9F8886487</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_cuenta" id="E30513BB-C20D-D844-2121-CB115298E11A">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:24:02 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="3ECAC916-3C3D-68A2-A67B-4781ACE0C7EB">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:24:18 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="386982DC-20A6-91C4-BDD4-730227263CE7">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:52 UTC</createdTime>
+<generatorID>E324BF40-60FE-3B27-EB69-B400EE8AA78F</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>FA31C39A-D293-B56F-536F-8F41FDDAF5F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asesor" id="63392B55-D2D4-48DF-3DF0-6CA1F633D716">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:26:52 UTC</createdTime>
+<generatorID>E324BF40-60FE-3B27-EB69-B400EE8AA78F</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>F448995A-B135-6B02-DA07-F9288CF5AC57</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="493CC89C-88B1-147B-5DF7-CF3631232C71">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 06:33:33 UTC</createdTime>
+<generatorID>6A6E5B79-05A0-B5E4-64DE-508CD2A4D55C</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9F63D1D0-F034-436D-B6CB-4D3AA6C2AB5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -61,6 +133,8 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>798DD2A0-C3B1-C295-6FE1-10C9F8886487</attributeRef>
+<attributeRef>386982DC-20A6-91C4-BDD4-730227263CE7</attributeRef>
+<attributeRef>63392B55-D2D4-48DF-3DF0-6CA1F633D716</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

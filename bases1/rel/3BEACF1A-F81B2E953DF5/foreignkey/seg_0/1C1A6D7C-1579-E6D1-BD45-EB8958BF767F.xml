@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C1A6D7C-1579-E6D1-BD45-EB8958BF767F" containerWithKeyObject="010C331B-529F-AD57-B1AB-57ACFBF32D82" localFKIndex="179A5A00-1038-197B-F284-90E72C873AB0" name="Calendario_anual_Paquete_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>9FD09744-3418-B742-831D-ED750E5FF0AB</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<referredTableLongName>Paquete</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D7B8A48F-0AFA-8AAF-38EA-0CED54CCF601</referredTableID>
+<keyObject>80772593-F924-08EA-AE1E-C239BA7EA5F0</keyObject>
+<referredKeyID>80772593-F924-08EA-AE1E-C239BA7EA5F0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_paquete,Agencia_id_agencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

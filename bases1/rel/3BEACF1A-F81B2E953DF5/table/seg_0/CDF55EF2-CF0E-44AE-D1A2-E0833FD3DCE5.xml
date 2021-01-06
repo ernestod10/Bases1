@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDF55EF2-CF0E-44AE-D1A2-E0833FD3DCE5" name="METODO_PAGO">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>43BFB3E6-B064-0A82-71C6-7E27DD41B2B1</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_metodo_pago" id="6D15165D-8B4F-3F01-BB1D-8FEAC9170D12">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>798DD2A0-C3B1-C295-6FE1-10C9F8886487</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_metodo_pago" id="29ACAB6F-19CE-7FDC-DC7E-1ADC333756F2">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>7913A3C1-7F13-77B4-B0E3-6EA627FAD817</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="A3D96DB1-44E3-8087-7345-5F0E3404BF6F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>4BE0BF05-5CF6-A6FB-9B7A-6FC67B47284A</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_cuenta" id="95C6ADAB-FB7B-EF32-20E3-3816B3FB42C6">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>E30513BB-C20D-D844-2121-CB115298E11A</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="61678998-B657-CD3D-A185-C67E292C442F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>3ECAC916-3C3D-68A2-A67B-4781ACE0C7EB</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_id_cliente" id="4E935577-E5ED-577E-3521-3D90255338CD">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>386982DC-20A6-91C4-BDD4-730227263CE7</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D0A49A0-A634-64C3-9F77-1E402FB2FB2C" referredColumn="F60D665F-F499-7396-6512-8941E87567EA"/>
+</associations>
+</Column>
+<Column name="Cliente_Asesor_viaje_id_asesor" id="B505A89A-3140-2A1A-DC04-D53A0DF0BD1F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>63392B55-D2D4-48DF-3DF0-6CA1F633D716</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D0A49A0-A634-64C3-9F77-1E402FB2FB2C" referredColumn="7DE98813-BDE7-05CF-0199-26B4DA2B9B40"/>
+</associations>
+</Column>
+<Column name="Banco_Id" id="8423FA81-2F9F-1BA6-EB02-EFD7980A830F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>493CC89C-88B1-147B-5DF7-CF3631232C71</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64C947DA-5225-5F53-37FA-7B490CC89AC6" referredColumn="D09142F4-7C97-19DF-9917-A398DF1D4190"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D599358-E982-EC6C-429C-B1334564EEFA" name="METODO_PAGO_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>322DA020-AC61-3B02-7E65-67C42CE64465</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D15165D-8B4F-3F01-BB1D-8FEAC9170D12"/>
+<colUsage columnID="4E935577-E5ED-577E-3521-3D90255338CD"/>
+<colUsage columnID="B505A89A-3140-2A1A-DC04-D53A0DF0BD1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F7A9D8D-8FC8-29EB-F682-8B7CC7DB1724" name="METODO_PAGO_Cliente_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>E324BF40-60FE-3B27-EB69-B400EE8AA78F</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E935577-E5ED-577E-3521-3D90255338CD"/>
+<colUsage columnID="B505A89A-3140-2A1A-DC04-D53A0DF0BD1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEA431F3-0A16-3980-5397-F89A8FF95DD5" name="METODO_PAGO_Banco_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>6A6E5B79-05A0-B5E4-64DE-508CD2A4D55C</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8423FA81-2F9F-1BA6-EB02-EFD7980A830F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

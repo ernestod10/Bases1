@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDF8335C-7DAA-6941-43DF-EE936288175A" name="agencia_esp">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>2CB1C18C-2049-AA2C-936E-D81709873161</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<ordsAlias>agencia_especializacion</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Esp_id_Esp" id="33C2D2D9-B158-B1B1-5720-BBE1D1A4107C">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>DFCC5637-F6B3-D216-BD8A-929E69456FA2</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A4B6B79-6797-46D5-001C-EE084A49B79C" referredColumn="386E9C28-7936-C0DB-3DD7-A6AA1A42C385"/>
+</associations>
+</Column>
+<Column name="Agencia_id_agencia" id="94830EB3-5BB4-C7FE-CB0E-5767513CBCD0">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>97996833-5F7C-B991-48BA-FE7D3555A304</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93E203A1-5804-7F11-44AF-92AC52AD734B" referredColumn="AE2CEADF-939D-89BB-A628-C12B323C5C88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFB49AA0-0795-E84C-2EE5-409E7CA06AAA" name="agencia_esp_Esp_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>D03769D4-6767-342E-A97A-F90A357CB61B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33C2D2D9-B158-B1B1-5720-BBE1D1A4107C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76DCC4F6-DE93-435F-2D9C-4566F8E1A580" name="agencia_esp_Agencia_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>A6AA6526-F219-713A-0B52-8DF327B84092</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94830EB3-5BB4-C7FE-CB0E-5767513CBCD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

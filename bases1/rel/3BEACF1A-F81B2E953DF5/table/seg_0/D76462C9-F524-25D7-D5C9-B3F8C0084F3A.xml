@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D76462C9-F524-25D7-D5C9-B3F8C0084F3A" name="atraccion">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>DC9A6A04-AF6C-BF84-DC0C-2D3F7B02BBFD</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_actraccion" id="50653EC1-FDE8-9846-7082-9CA386A35926">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>439E8390-ABA7-F540-BFDE-7085B4EB7127</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_atraccion" id="F32EE64D-DB49-5C82-85D6-963F8104CDC8">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>F01CBC06-2469-7BD5-4808-90EC5CB04B4E</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="B5D38EA9-D6FF-C4D7-17FF-344FEF015D61">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>C6BFF90C-A61F-5A99-F161-1DFE9707D0B7</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad_id_Ciudad" id="B47100EB-1692-B983-9915-DAB36765BBA7">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>FC3EE279-C310-8BEB-567F-9F20D394CF0C</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05FDBC92-F516-CD22-9A29-E255C93735E0" referredColumn="58458D7F-2195-7E8A-BF94-A74272C5B3B6"/>
+</associations>
+</Column>
+<Column name="Ciudad_Pais_id_pais" id="BB1A157F-8A6D-3533-0BBF-48B9DA6CC6F5">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>2E7AFF3A-2144-CD22-2FF1-BA974407A233</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05FDBC92-F516-CD22-9A29-E255C93735E0" referredColumn="36527615-3D53-B45B-D751-E2733280D566"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50768827-023E-F779-E05A-6A5AE1D07F57" name="atraccion_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>FA481697-6D8B-7D53-2362-EB135F6C9358</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50653EC1-FDE8-9846-7082-9CA386A35926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C18482DE-6CF9-39F1-3CE2-9402084EDC99" name="atraccion_Ciudad_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>818CA9E6-6268-04EF-BA72-0017E1DBA710</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B47100EB-1692-B983-9915-DAB36765BBA7"/>
+<colUsage columnID="BB1A157F-8A6D-3533-0BBF-48B9DA6CC6F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

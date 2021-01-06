@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F198EFED-AFD5-92FC-6DE3-EAB88ECF0E7E" name="Historico_precio_paquete">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>2BB0BF08-18AF-35FA-92AB-C6F10E273820</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fecha_inicio" id="CE0B7787-A7F5-653F-3DEC-1BA7DF166862">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>C33C3842-29CF-89CF-11D1-CC6941243712</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="38BCB453-4662-5F6D-F309-0416417DF497">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>354C4F03-2732-9C5A-6A8F-0E0F43C8DD5C</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Costo_base" id="8704E6D3-0A9F-F8D7-2B16-E0D10F5FD8B7">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>D76963DC-DEC1-B846-6004-8B45AB3BCEAC</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paquete_id_paquete" id="7688573E-C662-AA9C-ECBC-E53E01D5E032">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>B8534435-3BA6-DFAD-75D5-B2250AB1E1D9</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="793B5166-5148-E3FD-D2D7-15E40BB9A094" referredColumn="BA320299-EB2E-6DF7-6723-56DDA270D375"/>
+</associations>
+</Column>
+<Column name="Paquete_Agencia_id_agencia" id="E2CE26F6-B485-A70A-068E-67CC4622DC6F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>41F8DC6A-920E-8EB4-BC1D-F115D613A6C1</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="793B5166-5148-E3FD-D2D7-15E40BB9A094" referredColumn="69FC7C58-A9A3-B516-CEEE-84928BFDEEAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADA446FC-2AFD-F260-67B9-5607D8AFDCEB" name="Historico_precio_paquete_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>A9CD14A3-90A3-0E41-712A-80C77230045C</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE0B7787-A7F5-653F-3DEC-1BA7DF166862"/>
+<colUsage columnID="7688573E-C662-AA9C-ECBC-E53E01D5E032"/>
+<colUsage columnID="E2CE26F6-B485-A70A-068E-67CC4622DC6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36B20DCB-394D-C10F-F97A-27DEE3F7AF07" name="Historico_precio_Pqt_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>3410DBEF-BDAE-5450-DA2F-0435AFAD23F4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7688573E-C662-AA9C-ECBC-E53E01D5E032"/>
+<colUsage columnID="E2CE26F6-B485-A70A-068E-67CC4622DC6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

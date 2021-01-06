@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6890C3F-71DD-B536-4EDA-0EA8F49E3F75" name="rally_lugar">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6890C3F-71DD-B536-4EDA-0EA8F49E3F75" name="rally_Ciudad">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-03 19:54:45 UTC</createdTime>
 <ownerDesignName>bases1</ownerDesignName>
@@ -24,10 +24,12 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>A81429E8-65C8-1E99-F08A-9DB1538D6869</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_lugar" id="AB945884-DEA2-881D-CEA7-5E498DAD5C89">
+<Attribute name="id_Ciudad" id="AB945884-DEA2-881D-CEA7-5E498DAD5C89">
 <createdBy>Personal</createdBy>
 <createdTime>2020-11-03 19:56:56 UTC</createdTime>
 <generatorID>31A6AAA3-7292-1871-B9EF-54DEA3F3A352</generatorID>
@@ -36,7 +38,9 @@
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
 <referedAttribute>832CF6A4-D8F2-1FD7-D3F9-DF0B163B3EE5</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="posicion_lugar" id="E6A9C2B7-DE68-49B2-B06B-A4B6C0255F24">
@@ -46,7 +50,35 @@
 <engineerTo>
 <item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Maximo_dias" id="2148FEB4-3AF6-AD21-9576-341343C2E673">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 01:21:13 UTC</createdTime>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="29493A54-FC26-CA13-F1DF-A536E18017C6">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 05:59:14 UTC</createdTime>
+<generatorID>31A6AAA3-7292-1871-B9EF-54DEA3F3A352</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<engineerTo>
+<item key="8FFA3864-83E6-6C44-D83D-F300AD2C333A" value="true"/>
+</engineerTo>
+<referedAttribute>DA22B7BA-360E-86A2-E617-E342846CC850</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -62,6 +94,7 @@
 <usedAttributes>
 <attributeRef>35CDE811-11EE-A41B-B5B9-D2A4B9FFEA3D</attributeRef>
 <attributeRef>AB945884-DEA2-881D-CEA7-5E498DAD5C89</attributeRef>
+<attributeRef>29493A54-FC26-CA13-F1DF-A536E18017C6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B891A33-AD63-7BF7-84AA-5DC2E0A9D598" name="rally_Ciudad">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>B6890C3F-71DD-B536-4EDA-0EA8F49E3F75</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rally_id_rally" id="CC43B9DB-2CD2-265B-8492-54D6C30940B9">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>35CDE811-11EE-A41B-B5B9-D2A4B9FFEA3D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44658A81-F7B4-4615-326E-7478B4C486EF" referredColumn="2E3FF678-2DA1-B4A2-93A8-C49CACE2ED65"/>
+</associations>
+</Column>
+<Column name="Ciudad_id_Ciudad" id="16AD68D4-34F0-5EA9-462B-14A447CC44A5">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>AB945884-DEA2-881D-CEA7-5E498DAD5C89</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F186D0B2-2EE5-020B-05D9-12E7A8E0193F" referredColumn="58458D7F-2195-7E8A-BF94-A74272C5B3B6"/>
+</associations>
+</Column>
+<Column name="posicion_lugar" id="C6A10FA0-AFEE-8008-5A2A-52ACE123EAA1">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>E6A9C2B7-DE68-49B2-B06B-A4B6C0255F24</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Maximo_dias" id="01BDBEF0-C440-C9DD-3CE9-DC6B5F62B54C">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>2148FEB4-3AF6-AD21-9576-341343C2E673</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad_Pais_id_pais" id="23B45DC1-C972-D465-2C55-49142757AF8B">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>29493A54-FC26-CA13-F1DF-A536E18017C6</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F186D0B2-2EE5-020B-05D9-12E7A8E0193F" referredColumn="36527615-3D53-B45B-D751-E2733280D566"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C8F8765-0186-40A1-CC55-BF15B6E62FA3" name="rally_Ciudad_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>A88D6A17-ECC0-5581-06E5-91D79F332A8E</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC43B9DB-2CD2-265B-8492-54D6C30940B9"/>
+<colUsage columnID="16AD68D4-34F0-5EA9-462B-14A447CC44A5"/>
+<colUsage columnID="23B45DC1-C972-D465-2C55-49142757AF8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="999AC7D7-DB24-5BFD-B33D-DD5E121DDFF8" name="rally_Ciudad_rally_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>14A6559A-57C0-27A9-59D3-F5FBF821B6F5</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC43B9DB-2CD2-265B-8492-54D6C30940B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99DC42AB-7279-853B-FC55-F50DE5B11248" name="rally_Ciudad_Ciudad_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>31A6AAA3-7292-1871-B9EF-54DEA3F3A352</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16AD68D4-34F0-5EA9-462B-14A447CC44A5"/>
+<colUsage columnID="23B45DC1-C972-D465-2C55-49142757AF8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

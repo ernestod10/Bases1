@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A66AA12-F6E0-5157-C695-22DA63A003B6" name="CL_registro">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>28BD8623-8B3C-A292-0B80-5722CB1DD410</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<ordsAlias>cliente_registro</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha" id="50D57EC2-AE61-48EB-FC8C-40ECCAC11A0A">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>2152F3A3-F486-F6C6-3DE1-401D879CD32B</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_registro" id="B238FF04-BA08-1E8F-6927-A9F8F667F260">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>2D3FC69E-F4F5-FB28-7210-DBF39DA4925F</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_id_cliente" id="3979E4D2-2288-B39F-CCEA-895C237A673F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>D9B09B5B-80FD-90CE-23B6-E4D83DF26FF2</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90605D19-FE86-5E72-75A3-02DCC85742BC" referredColumn="F60D665F-F499-7396-6512-8941E87567EA"/>
+</associations>
+</Column>
+<Column name="Cliente_Asesor_viaje_id_asesor" id="2593032F-8DEC-8561-5DA8-9AA6A831C8B0">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>3A7FDE37-F0F1-1673-2BC8-326862EF9603</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90605D19-FE86-5E72-75A3-02DCC85742BC" referredColumn="7DE98813-BDE7-05CF-0199-26B4DA2B9B40"/>
+</associations>
+</Column>
+<Column name="Agencia_id_agencia" id="33EF2DC0-5E8A-E42A-E1D6-D57C1BD50B44">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>B83C823C-3DED-6539-8EFB-0C5E3CE921AB</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25CCC917-4991-7334-99BF-777534EF1F63" referredColumn="AE2CEADF-939D-89BB-A628-C12B323C5C88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21F3D80B-8819-A6B6-AF0F-03A59953BC42" name="Cliente_registro_PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>47941968-35A9-1E55-70C7-A95DEC15B0D4</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B238FF04-BA08-1E8F-6927-A9F8F667F260"/>
+<colUsage columnID="3979E4D2-2288-B39F-CCEA-895C237A673F"/>
+<colUsage columnID="2593032F-8DEC-8561-5DA8-9AA6A831C8B0"/>
+<colUsage columnID="33EF2DC0-5E8A-E42A-E1D6-D57C1BD50B44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42E03E78-772B-8F0D-CD6E-2BB5B774A049" name="Cliente_registro_Cliente_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>2CA16DA9-9242-6903-5BFB-ABBDF2969A31</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3979E4D2-2288-B39F-CCEA-895C237A673F"/>
+<colUsage columnID="2593032F-8DEC-8561-5DA8-9AA6A831C8B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0D28284-BFED-492A-C68C-36F61E41CB02" name="Cliente_registro_Agencia_FK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-01-03 18:57:10 UTC</createdTime>
+<generatorID>60615196-73BF-2B2D-9065-8DA9EA8AAB4D</generatorID>
+<ownerDesignName>bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33EF2DC0-5E8A-E42A-E1D6-D57C1BD50B44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
